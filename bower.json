@@ -1,0 +1,22 @@
+{
+  "name": "timBrockman.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/timBrockman/timBrockman.github.io",
+  "authors": [
+    "timBrockman <tim@timbrockman.com>"
+  ],
+  "description": "personal home page",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  }
+}
