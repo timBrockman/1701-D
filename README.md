@@ -19,6 +19,12 @@ Personal/professional site containing:
     [] color pallet var(s)
     [] behavior mixins
     [] standard bits (menus, coffins, etc,)
+  [] elements
+    [] main/router
+    [] Profile
+    [] cv
+    [] Writings
+    [] Works
   [] content loading (iron-ajax)
   [] markdown rendering (marked-element)
-  [] progressive load
+  [] progressive load & optimize
