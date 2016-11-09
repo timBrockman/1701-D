@@ -30,8 +30,8 @@
   - link out to repo or other external work
 
 ## todo:
-  [ ] 1st sprint planning (1/1)
-  [ ] wireframe/mockups
+  [x] 1st sprint planning (1/1)
+  [ ] 1st wireframe/mockups (paper)
     [ ] mobile
     [ ] tablet
     [ ] desk/wide
