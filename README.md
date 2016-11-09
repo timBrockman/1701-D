@@ -35,6 +35,10 @@
     [ ] mobile
     [ ] tablet
     [ ] desk/wide
+  [ ] 1st test
+      [ ] unit for features
+      [ ] accessibility (with unit)
+      [ ] cross platform/browser
   [ ] 1st iteration grind out
     [ ] mobile
     [ ] tablet
