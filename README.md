@@ -32,7 +32,7 @@
 ## todo:
   [x] 1st sprint planning (1/1)
   [ ] 1st wireframe/mockups (paper)
-    [ ] mobile
+    [x] mobile (1/1)
     [ ] tablet
     [ ] desk/wide
   [ ] 1st test
