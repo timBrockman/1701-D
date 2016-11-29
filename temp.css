@@ -15,8 +15,9 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-size: 62.5%;/* 1rem = 10px ala skeleton*/
+  font-size: 62.5%;/* 1rem = 10px ala skeleton @dhg (not sure I'm going to bother with rem vs px)*/
   box-sizing: border-box;
+  /* vars */
   --bg-color: dimgray;
   --bg-hi-color: silver;
   --base-color:black;
@@ -25,7 +26,7 @@ html {
   --hs: "Jockey One", Impact, "sans serif";
   --triangle: 40vh;
   --thumb: 20vw;
-
+  /* @apply's */
 }
 @media (orientation:portrait) {
   html{
@@ -60,11 +61,11 @@ p{
 }
 h1{
   font-size: 48px;
-  line-height: 34px;
+  line-height: 34px;/*like a living in a trendy tiny house for hobbits*/
 }
 h2{
   font-size: 32px;
-  line-height: 24px;
+  line-height: 24px;/*like a living in a trendy tiny house for smaller hobbits*/
 }
 
 header{
@@ -80,8 +81,8 @@ header > div{
 }
 section{
   width: 100vw;
-  /*border-top:solid var(--base-color) 4px;
-  border-bottom:solid var(--base-color) 4px;*/
+  border-top:solid var(--bg-hi-color) 4px;
+  /*border-bottom:solid var(--base-color) 4px;*/
   margin: 16px 0;
 }
 .secHeader{
@@ -106,7 +107,6 @@ section{
   -webkit-shape-outside: polygon(33% 0, 100% 0, 100% 100%, 0 100%);
   shape-outside: polygon(33% 0, 100% 0, 100% 100%, 0 100%);
   background: var(--bg-hi-color);
-  border-top:solid var(--bg-hi-color) 4px;
   border-bottom:solid var(--bg-hi-color) 4px;
 }
 footer{

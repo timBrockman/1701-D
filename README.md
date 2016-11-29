@@ -1,7 +1,23 @@
 # [Timbrockman.com || timBrockman.github.io](https://timbrockman.com)
 
 ## Currently Iteration
-  This personal site is designed to take as little development time as possible.
+  This personal page is designed to take as little development time as possible.
+  It uses no frameworks or libraries. Just plain ol' html and css with a little optimization at build time.
+
+## current todo:
+    [ ] reconsider rem
+    [ ] better on big screen (not just bigger)
+    [ ] browser support audit (var, calc, clip-path, flex, shape-outside)
+    [ ] @supports wrap
+    [ ] ie/edge/lynx fallback/alternative
+    [ ] a11y/508 audit
+    [ ] a18n?
+    [ ] generalize & extract css those who may want alone
+    [ ] preprocessors for those who still use that stuff
+    [ ] amp this (ampproject)
+    [ ] templatize: mustache, jenkyll, hugo.io
+
+# future feature wish list
 
 ## Personal/professional site containing:
   - Profile: summary, social, etc.
@@ -13,7 +29,7 @@
   - Current static landing page
   - social profiles, summary, etc.
   - Summarize projects and link to repos
-  - Link to résumé
+  - Link to résumé pdf
 
 ### CV
   - pdf role focused resumes
@@ -28,23 +44,3 @@
   - (future) component of above
   - (future) amp-image of above for static
   - link out to repo or other external work
-
-## todo:
-  [x] 1st sprint planning (1/1)
-  [ ] 1st wireframe/mockups (paper)
-    [x] mobile (1/1)
-    [ ] tablet
-    [ ] desk/wide
-  [ ] 1st test
-      [ ] unit for features
-      [ ] accessibility (with unit)
-      [ ] cross platform/browser
-  [ ] 1st iteration grind out
-    [ ] mobile
-    [ ] tablet
-    [ ] desk/wide
-  [ ] 1st iteration optimize (http/1)
-    [ ] imagemin
-    [ ] loadtime, crp, placeholders
-    [ ] inline
-    [ ] frame rates, animations, flip, etc.
