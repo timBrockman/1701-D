@@ -79,6 +79,9 @@ header > div{
   min-width: calc(var(--triangle) + 10vw);
   flex:1 1;
 }
+header p{
+  padding: 0px 8px;
+}
 section{
   width: 100vw;
   border-top:solid var(--bg-hi-color) 4px;
