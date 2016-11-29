@@ -1,7 +1,7 @@
 # [Timbrockman.com || timBrockman.github.io](https://timbrockman.com)
 
 ## Currently Iteration
-  This personal site is designed to take as little development time as possible. Dev times for todos are being recorded in 15 min. blocks, so I can get better at estimating my personal dev times.
+  This personal site is designed to take as little development time as possible.
 
 ## Personal/professional site containing:
   - Profile: summary, social, etc.
