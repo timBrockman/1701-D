@@ -1,13 +1,14 @@
 # [Timbrockman.com || timBrockman.github.io](https://timbrockman.com)
 
-## Currently Iteration
+## Current Iteration
   This personal page is designed to take as little development time as possible.
   It uses no frameworks or libraries. Just plain ol' html and css with a little optimization at build time.
 
-## current todo:
+
+## todo:
     [x] reconsider rem
     [x] fix weird flex on android chrome with navigator bar
-    [ ] images generic size & picture calculations
+    [ ] images size/picture calculations
     [x] images base64 backgrounds
     [ ] imagemin or some such
     [ ] better on big screen (not just bigger)
@@ -20,6 +21,7 @@
     [ ] preprocessors for those who still use that stuff
     [ ] amp this (ampproject)
     [ ] templatize: mustache, jenkyll, hugo.io
+    [ ] consider nav row under header
 
 # future feature wish list
 

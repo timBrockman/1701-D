@@ -171,3 +171,13 @@ footer{
   shape-outside: polygon(0 0, 100% 0, 0 100%, 0 0);
   float: left;
 }
+@supports not ((-webkit-clip-path:polygon()) or (clip-path:polygon())){
+  /* ie, edge, others */
+
+  #profilePicture{
+    display: none;
+  }
+  #socSpace{
+    display: none;
+  }
+}
