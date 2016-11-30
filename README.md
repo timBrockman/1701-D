@@ -5,7 +5,7 @@
   It uses no frameworks or libraries. Just plain ol' html and css with a little optimization at build time.
 
 ## current todo:
-    [ ] reconsider rem
+    [x] reconsider rem
     [ ] better on big screen (not just bigger)
     [ ] browser support audit (var, calc, clip-path, flex, shape-outside)
     [ ] @supports wrap
