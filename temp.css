@@ -43,7 +43,7 @@ html {
     font-size:93.75%;/* 1rem = 15px (kind of yuck, but ends up being 8->12px, 16->24px)*/
   }
 }
-@media (min-width:1280px){
+@media (min-width:1024px){
   html{
     font-size:125%;/* 1rem = 20px (kind of mvp lazy, but ends up being 8->16px, 16->32px)*/
   }

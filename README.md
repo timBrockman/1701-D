@@ -7,6 +7,9 @@
 ## current todo:
     [x] reconsider rem
     [x] fix weird flex on android chrome with navigator bar
+    [ ] images generic size & picture calculations
+    [x] images base64 backgrounds
+    [ ] imagemin or some such
     [ ] better on big screen (not just bigger)
     [ ] browser support audit (var, calc, clip-path, flex, shape-outside)
     [ ] @supports wrap
