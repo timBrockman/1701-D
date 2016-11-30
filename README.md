@@ -6,6 +6,7 @@
 
 
 ## todo:
+    [ ] styles for links
     [x] reconsider rem
     [x] fix weird flex on android chrome with navigator bar
     [ ] images size/picture calculations
