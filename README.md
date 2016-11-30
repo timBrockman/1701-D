@@ -6,6 +6,7 @@
 
 ## current todo:
     [x] reconsider rem
+    [ ] check weird flex on android chrome with browser bar
     [ ] better on big screen (not just bigger)
     [ ] browser support audit (var, calc, clip-path, flex, shape-outside)
     [ ] @supports wrap
