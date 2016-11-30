@@ -12,8 +12,8 @@
     [x] images base64 backgrounds
     [ ] imagemin or some such
     [ ] better on big screen (not just bigger)
-    [ ] browser support audit (var, calc, clip-path, flex, shape-outside)
-    [ ] @supports wrap
+    [x] browser support audit (var, calc, clip-path, flex, shape-outside)
+    [x] @supports wrap
     [ ] ie/edge/lynx fallback/alternative
     [ ] a11y/508 audit
     [ ] a18n?
