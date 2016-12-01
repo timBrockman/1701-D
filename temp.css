@@ -59,11 +59,12 @@ body{
 a{
   text-decoration: none;
   color: var(--hi-color);
+  outline: 0;
 }
-a:hover, a:active, a:target/*, :link:hover, :link:active, :link:target*/{
+a:hover, a:active{
   color: var(--base-color);
 }
-a:visited, a:active/*, :link:active, :link:visited */{
+a:visited, a:active{
  text-decoration:line-through;
 }
 h1, h2, h3, h4, h5, h6{
