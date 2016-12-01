@@ -56,6 +56,16 @@ body{
   margin:0px;
   padding: 0px;
 }
+a{
+  text-decoration: none;
+  color: var(--hi-color);
+}
+a:hover, a:active, a:target/*, :link:hover, :link:active, :link:target*/{
+  color: var(--base-color);
+}
+a:visited, a:active/*, :link:active, :link:visited */{
+ text-decoration:line-through;
+}
 h1, h2, h3, h4, h5, h6{
   font-family: var(--hs);
   font-weight: 400;
@@ -87,9 +97,9 @@ header{
   padding-bottom: 3.2rem;
 }
 header > div{
-  min-width:250px; /*calc(var(--triangle) + 6.4rem);*/
+  min-width:275px; /*calc(var(--triangle) + 6.4rem);*/
   flex-grow: 1;
-  flex-basis: 250px;/*safari trashness*/
+  flex-basis: 275px;/*safari trashness*/
 }
 header p{
   padding: 0px .8rem;
