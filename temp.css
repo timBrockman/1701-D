@@ -27,6 +27,7 @@ html {
   --triangle: 40vh;
   --thumb: 20vw;
   /* @apply's */
+  background-color: var(--bg-color);
 }
 @media (orientation:portrait) {
   html{
@@ -55,6 +56,8 @@ body{
   font-size: 1.6rem; /* 1.6rem */
   margin:0px;
   padding: 0px;
+  min-height: 100vh;
+  position: relative;
 }
 a{
   text-decoration: none;
