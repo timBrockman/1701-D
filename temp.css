@@ -163,6 +163,7 @@ footer{
 }*/
 #socList{
   font-size: 1.6rem;
+  font-family: impact, sans-serif;/* ie */
   font-family: var(--hs);
   text-transform: uppercase;
   color: var(--base-color);
