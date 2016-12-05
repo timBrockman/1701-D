@@ -2,7 +2,12 @@
 A checklist of simple standard web tips that I forget.
 
 ## HTML basic stuff
-
+  - header
+    [ ] <meta charset="UTF-8">
+    [ ] <meta name="viewport" content="width=device-width, initial-scale=1">
+    [ ] async any blocks
+    [ ] media="print" for print styles or whatever
+    [ ] progressive inlining 
 
 ## CSS basic stuff
   - html
