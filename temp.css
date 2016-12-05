@@ -21,8 +21,9 @@ html {
   --hs: "Jockey One", Impact, "sans serif";
   --triangle: 40vh;
   --thumb: 20vw;
-  --parallax-perspective:;/*css chrome & ff only, no mobile safari*/
-  --parallax-distance:;
+  --sparkle: url();
+  --parallax-perspective:1px;/*css chrome & ff only, no mobile safari*/
+  --parallax-distance:-2px;
   /* @apply's */
 
   /*html basics*/
@@ -32,6 +33,15 @@ html {
   font-size: 62.5%;/* 1rem = 10px ala skeleton @dhg*/
   box-sizing: border-box;
   background-color: var(--bg-color);
+}
+.parallaxContainer{/* kind of not interested*/
+  perspective: var(--paralax-perspective);
+  perspective-origin: 0 0;
+}
+.parallaxChild{
+  background-image: none;
+  transform-origin: bottom right;
+  transform: translateZ(var(--parallax-distance)) scale(3);
 }
 @media (orientation:portrait) {
   html{
@@ -56,6 +66,7 @@ html {
 
 body{
   background-color: var(--bg-color);
+
   color: var(--base-color);
   font-size: 1.6rem; /* 1.6rem */
   margin:0px;
