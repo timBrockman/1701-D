@@ -13,7 +13,7 @@ material design breakpoints
 **/
 html {
   /* vars */
-  --bg-color: dimgray;
+  --bg-color: #6d4c41;
   --bg-hi-color: silver;
   --base-color:black;
   --hi-color:lightskyblue;
