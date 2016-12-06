@@ -135,6 +135,7 @@ section{
   width: 100vw;
   border: solid var(--bg-hi-color) .4rem;
   border-top:solid var(--bg-hi-color) 1.6rem;
+  border-right: 0px;
   /*border-bottom:solid var(--base-color) 4px;*/
   margin: 1.6rem 0px;
 }
@@ -150,6 +151,7 @@ section{
   padding:0px .8rem;
   text-align: center;
   border-top: solid var(--bg-hi-color) .2rem;
+  border-right: solid var(--bg-hi-color) .4rem;
   background: var(--bg-color);
 }
 .projectThumb{
@@ -167,6 +169,7 @@ section{
   background-size: cover;
   background-position: center;
   border-bottom:solid var(--bg-hi-color) 1.6rem;
+  border-right: solid var(--bg-hi-color) .4rem;
 }
 footer{
   clear: both;
