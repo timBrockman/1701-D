@@ -19,7 +19,7 @@ html {
   --hi-color:lightskyblue;
   --source:"courier new", courier, monospace;
   --hs: "Jockey One", Impact, "sans serif";
-  --triangle: 40vh;
+  --triangle: 160px;/*formerly 40vh, but jangles on softkey drawer and menu bar in some mobile chromes*/
   --thumb: 20vw;
   --sparkle: url();
   --parallax-perspective:1px;/*css chrome & ff only, no mobile safari*/
@@ -43,6 +43,8 @@ html {
   transform-origin: bottom right;
   transform: translateZ(var(--parallax-distance)) scale(3);
 }
+/*hard px triangle to height of social block + a few
+
 @media (orientation:portrait) {
   html{
     --triangle: 25vh;
@@ -53,16 +55,17 @@ html {
     --triangle: 40vh;
   }
 }
+*/
 @media (min-width:768px){
   html{
     font-size:93.75%;/* 1rem = 15px (kind of yuck, but ends up being 8->12px, 16->24px)*/
-    --triangle: 236px;/*h1 + p + 2px = 64px + 170px + 2px = 236px*/
+    --triangle: 236px;/* h1 + p + 2px = 64px + 170px + 2px = 236px*/
   }
 }
 @media (min-width:1024px){
   html{
     font-size:125%;/* 1rem = 20px (kind of mvp lazy, but ends up being 8->16px, 16->32px)*/
-    --triangle: 310px; /*h1 + p + 2px = 84px + 224px + 2px = 310px */
+    --triangle: 310px; /* h1 + p + 2px = 84px + 224px + 2px = 310px */
   }
 }
 
