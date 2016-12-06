@@ -13,7 +13,7 @@ material design breakpoints
 **/
 html {
   /* vars */
-  --bg-color: #6d4c41;
+  --bg-color: #424242;
   --bg-hi-color: silver;
   --base-color:black;
   --hi-color:lightskyblue;
@@ -27,7 +27,7 @@ html {
   /* @apply's */
 
   /*html basics*/
-  font-family: sans-serif; /* 1 */
+  font-family: "Cairo", "Roboto", sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   font-size: 62.5%;/* 1rem = 10px ala skeleton @dhg*/
@@ -105,6 +105,10 @@ h4, h5, h6 {
 p{
   margin:0px;
   padding: 0px 0px .8rem 0px;
+  text-indent: 1.6rem;
+}
+p:first-of-type{
+  text-indent: 0;
 }
 h1{
   font-size: 4.8rem;
@@ -200,8 +204,8 @@ footer{
 @supports ((-webkit-clip-path:none) or (clip-path:none)){
   #profilePicture {
     display: block;
-    -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0, 0 0);
-    clip-path: polygon(0 0, 100% 100%, 100% 0, 0 0);
+    -webkit-clip-path: polygon(0 0, 101% 0, 101% 100%, 0 0);
+    clip-path: polygon(0 0, 101% 0, 101% 100%, 0 0);
     -webkit-shape-outside: polygon(0 0, 100% 100%, 100% 0, 0 0);
     shape-outside: polygon(0 0, 100% 100%, 100% 0, 0 0);
     float:right;
@@ -216,8 +220,8 @@ footer{
     display: block;
     height:var(--triangle);
     width:var(--triangle);
-    -webkit-clip-path: polygon(0 0, 100% 0, 0 100%, 0 0);
-    clip-path: polygon(0 0, 100% 0, 0 100%, 0 0);
+    /*-webkit-clip-path: polygon(0 0, 100% 0, 0 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 0 100%, 0 0); just negative space */
     -webkit-shape-outside:polygon(0 0, 100% 0, 0 100%, 0 0);
     shape-outside: polygon(0 0, 100% 0, 0 100%, 0 0);
     float: left;
