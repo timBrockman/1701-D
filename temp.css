@@ -13,7 +13,7 @@ material design breakpoints
 **/
 html {
   /* vars */
-  --bg-color: #424242;
+  --bg-color: #504242;
   --bg-hi-color: silver;
   --base-color:black;
   --hi-color:lightskyblue;
@@ -159,11 +159,14 @@ section{
   background: var(--bg-color);
 }
 .projectThumb{
+  box-sizing: border-box;
   float: right;
+  text-decoration: none;
+  outline: none;
   height: 20vw;
   width: 60%;
-  box-sizing: border-box;
-
+  -webkit-filter:grayscale(0%);
+  filter:grayscale(0%);
   -webkit-clip-path: polygon(33% 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(33% 0, 100% 0, 100% 100%, 0 100%);
   -webkit-shape-outside: polygon(33% 0, 100% 0, 100% 100%, 0 100%);
@@ -174,6 +177,10 @@ section{
   background-position: center;
   border-bottom:solid var(--bg-hi-color) 1.6rem;
   border-right: solid var(--bg-hi-color) .4rem;
+}
+.projectThumb:hover{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
 }
 footer{
   clear: both;
@@ -204,6 +211,8 @@ footer{
 @supports ((-webkit-clip-path:none) or (clip-path:none)){
   #profilePicture {
     display: block;
+    text-decoration: none;
+    outline: none;
     -webkit-clip-path: polygon(0 0, 101% 0, 101% 100%, 0 0);
     clip-path: polygon(0 0, 101% 0, 101% 100%, 0 0);
     -webkit-shape-outside: polygon(0 0, 100% 100%, 100% 0, 0 0);
@@ -215,6 +224,12 @@ footer{
     background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSgBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/ANb4mLpWmeIpJtUljaB0KRw+Vuk3YB3fQZOBwCTyfTjwOX1KsZumtE972O/EY2EHBVN7bfej5s+K09vc+Or+azlM1u8VuVc9T+4jzn3zmuilSdKPI91/mclap7SbkQ+IfH3iXxFdG51jURcTnq32eJO2P4VFdNGtOhFwpuybuYzgqklKW60OcuJ5LiZpZm3SHGTjHQYrNu+rKP8A/9k=');
     background-size: cover;
     background-position: right;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+  }
+  #profilePicture:hover{
+    -webkit-filter:none;
+    filter:none;
   }
   #socSpace{
     display: block;
