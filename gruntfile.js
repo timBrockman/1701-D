@@ -17,18 +17,23 @@ module.exports = function(grunt) {
             quality: 65
           },
           {
-            width: '640px',
-            suffix: '_md',
+            height: '160px',
+            suffix: '_profile',
             quality: 65
           },
           {
-            width: '960px',
-            suffix: '_lg',
+            height: '240px',
+            suffix: '_thumb',
             quality: 65
           },
           {
-            width: '1920px',
-            suffix: '_xl',
+            height: '354px',
+            suffix: '_768_thumb',
+            quality: 65
+          },
+          {
+            height: '465px',
+            suffix: '_1024_thumb',
             quality: 65
           }]
         },
