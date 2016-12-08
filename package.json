@@ -1,0 +1,26 @@
+{
+  "name": "timbrockman.github.io",
+  "version": "1.0.0",
+  "description": "personal home",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timBrockman/timBrockman.github.io.git"
+  },
+  "author": "tim brockman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timBrockman/timBrockman.github.io/issues"
+  },
+  "homepage": "https://github.com/timBrockman/timBrockman.github.io#readme"
+}

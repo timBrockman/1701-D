@@ -7,7 +7,12 @@ A checklist of simple standard web tips that I forget.
     [ ] <meta name="viewport" content="width=device-width, initial-scale=1">
     [ ] async any blocks
     [ ] media="print" for print styles or whatever
-    [ ] progressive inlining 
+    [ ] progressive inlining
+  - img, picture, figures, etc.
+    [ ] progressive placeholders
+    [ ] alts, captions, etc.
+    [ ] sizes when possible
+
 
 ## CSS basic stuff
   - html
@@ -20,5 +25,7 @@ A checklist of simple standard web tips that I forget.
     [ ] alignments: text-align, flex (align-items, align-content)
     [ ] box-sizing, borders, margins, padding
     [ ] animations or jank {will-change:transform opacity or transform:translateZ(0)}
+  - images
+    [ ] placeholder backgrounds
 
 ## Optimization
