@@ -14,9 +14,12 @@
   <body>
 		<header>
 			<div id="idBlock">
-				<div  id="profilePicture" class="">
-					<img src="images/Jen-Tim-placeholder.jpg" alt="profile picture" />
-				</div>
+				<picture  id="profilePicture" class="">
+          <source media="print" srcset="images/tim-sq-310_profile.jpg">
+          <source media="(min-width:1024px)" srcset="images/tim-sq-310_profile.jpg"/>
+          <source media="(min-width:768px)" srcset="images/tim-sq-236_profile.jpg"/>
+				  <img src="images/tim-sq-160_profile.jpg" alt="profile picture" />
+				</picture>
 				<div>
 					<h1 class="lowCeiling">Timothy Brockman</h1>
 					<h4>IT Manager/Code Contributor</h4>

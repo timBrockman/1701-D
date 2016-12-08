@@ -8,10 +8,10 @@ A checklist of simple standard web tips that I forget.
     [ ] async any blocks
     [ ] media="print" for print styles or whatever
     [ ] progressive inlining
-  - img, picture, figures, etc.
+  - img, srcset, picture, figures, etc.
     [ ] progressive placeholders
     [ ] alts, captions, etc.
-    [ ] sizes when possible
+    [ ] explicit sizes when possible
 
 
 ## CSS basic stuff

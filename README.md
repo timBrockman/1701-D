@@ -13,11 +13,11 @@
     [x] images size/picture calculations
     [x] images base64 backgrounds
     [x] quick optimization checks
-    [ ] imagemin or some such
+    [x] imagemin or some such
       [x] npm installs
       [x] reuse grunt config
-      [ ] progressive picture
-      [ ] css refactor
+    [ ] progressive picture
+    [ ] css refactor
     [x] browser support audit (var, calc, clip-path, flex, shape-outside)
     [x] @supports wrap
     [ ] ie/edge/lynx fallback/alternative
