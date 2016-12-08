@@ -57,11 +57,11 @@ html {
 }
 */
 .projectThumb{
-  height: 240px;
-  -webkit-clip-path: polygon(160px 0%, 100% 0%, 100% 100%, 0px 100%, 0px 160px, 160px 0%);
-  clip-path: polygon(160px 0%, 100% 0%, 100% 100%, 0px 100%, 0px 160px, 160px 0%);
-  -webkit-shape-outside: polygon(160px 0%, 100% 0%, 100% 100%, 0px 100%, 0px 160px, 160px 0%);
-  shape-outside: polygon(160px 0%, 100% 0%, 100% 100%, 0px 100%, 0px 160px, 160px 0%);
+  max-height: 240px;
+  -webkit-clip-path: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
+  clip-path: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
+  -webkit-shape-outside: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
+  shape-outside: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
 }
 @media (min-width:768px){
   html{
@@ -69,11 +69,11 @@ html {
     --triangle: 236px;/* h1 + p + 2px = 64px + 170px + 2px = 236px*/
   }
   .projectThumb{
-    height: 354px;
-    -webkit-clip-path: polygon(236px 0px, 100% 0px, 100% 100%, 0px 100%, 0px 236px, 236px 0px);
-    clip-path: polygon(236px 0px, 100% 0px, 100% 100%, 0px 100%, 0px 236px, 236px 0px);
-    -webkit-shape-outside: polygon(236px 0px, 100% 0px, 100% 100%, 0px 100%, 0px 236px, 236px 0px);
-    shape-outside: polygon(236px 0px, 100% 0px, 100% 100%, 0px 100%, 0px 236px, 236px 0px);
+    max-height: 354px;
+    -webkit-clip-path: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
+    clip-path: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
+    -webkit-shape-outside: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
+    shape-outside: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
   }
 }
 @media (min-width:1024px){
@@ -82,11 +82,11 @@ html {
     --triangle: 310px; /* h1 + p + 2px = 84px + 224px + 2px = 310px */
   }
   .projectThumb{
-    height: 465px;
-    -webkit-clip-path: polygon(310px 0px, 100% 0, 100% 100%, 0px 100%, 0px 310px, 310px 0px);
-    clip-path: polygon(310px 0px, 100% 0, 100% 100%, 0px 100%, 0px 310px, 310px 0px);
-    -webkit-shape-outside: polygon(310px 0px, 100% 0, 100% 100%, 0px 100%, 0px 310px, 310px 0px);
-    shape-outside: polygon(310px 0px, 100% 0, 100% 100%, 0px 100%, 0px 310px, 310px 0px);
+    max-height: 465px;
+    -webkit-clip-path: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
+    clip-path: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
+    -webkit-shape-outside: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
+    shape-outside: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
   }
 }
 
@@ -180,21 +180,31 @@ section{
   background: var(--bg-color);
 }
 .projectThumb{
-  box-sizing: border-box;
+  -webkit-filter:grayscale(0%);
+  filter:grayscale(0%);
+  background-color: var(--bg-hi-color);
+  background-size: cover;
+  background-position: center;
+  height:100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumbBorder{
   float: right;
-  top:-1px;
   text-decoration: none;
   outline: none;
   width: 50%;
-  -webkit-filter:grayscale(0%);
-  filter:grayscale(0%);
-  background-color: var(--bg-color);
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAKCAYAAADLhGwXAAADR0lEQVR42p1U23LTMBCtJTvxJbrYjpPe2zRpk7Zpk7b0XggdplxmYEp5gAde+P8/AFwvR5IHmOGF9GFnZe2udPborBe8kXxkHVGxsarYQFZci4rHrYq3WhWbqso7xP7ExbwzXbG+rNiOdN+o8fZMTFV8CbXHuvJz1B/ge5ZWbAV5vdpwFtuCR5ytI7db35khv4n7Gv9vLEx+LnjbAL4iiE0l4QLiqSAewQRsB3tD2FgRLiN2DL8t3XpU77dRizy/Kyk8yCguNMVSUXOWEztAXCF+oogbvw+/rigIhTW/+TRrxKJc8IYAvolDb7U7OP8L+KFyYF8gZtbP4Z/BD2D7AH6TEusK24C/IklddClbLUi86JC8X6RgA/kd5OE89i6j8ConvZ6Retul9lJB8awgPgBZc4AOE0VZkZcLYOWRreLg19oyw9aEPYiDEXaunZmmpog9pA7sEdYvsfc+s6/EbjT5bTD+qk0qyykHqOShQ9zkrSF+n1rGw7s2yUlOxUqHig6ay9K52f4DfF8+cvPchtkBAHdq4DB2qqwM7JODGXapnDy2pGvkHLaMvCsAlzj0OKOWSknu5JTcFuRDFrYxw/gEEukpipY1hdcZRVJT4wgkLD6RcSMVIw8rkw3ppFIDtxo3TzlCzDBn5gAa59A4H9YNmUbRDIaafDRkL4ixN8WLbCIvwxry4gn8LvKXxFxA/9E3lCDTFIxjOPmiqLVbX9SsdT7EhXvKDZdpwrzAWFpA9iVOHTjzWn4hKRhqarbgURNcpVb3HENrZXehKdgHy9B8APk1WgBxrC0h8zbCwwTAxxhOgPA+Qa/XeDrDej2cdhiNlj8gdgn/NSfvLnWA38B/xp/DsDiDhpdxBgbQDjVAsS+ZHWqzz77lFLbRzMecGhNt/yjNyBjmIkYjcwIPLPBRzTgYYbsAXeDiuAZuBtP8Pc60k8W1drPwW+PaDrOp5bL+7Rl2h4K8+8zNhcmN3bzwPqQEKfqoCww5J9oO77yMsyaAe73kh1fEpbfXKr2NpPRUXLIQlmBvF3s92LCOHYjS62O9nLj9XXxL5I1FyQRq8M2TpOQR7BCxTeSYcybwUVz6e7KU/awMhSyF1GUYoS6I57dG9P0Xh34b6ez0nw4AAAAASUVORK5CYII=');
-  background-size: cover;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom:solid var(--bg-hi-color) 1.6rem;
   border-right:solid var(--bg-hi-color) .4rem;
-
+}
+.projectThumb img{
+  max-width: 100%;
+  max-height:100%
 }
 .projectThumb:hover{
   -webkit-filter:grayscale(100%);

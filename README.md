@@ -6,7 +6,7 @@
 
 
 ## todo:
-    [ ] add checklist of things to remember
+    [x] add checklist of things to remember
     [x] styles for links
     [x] reconsider rem
     [x] fix weird flex on android chrome with navigator bar
@@ -16,15 +16,19 @@
     [x] imagemin or some such
       [x] npm installs
       [x] reuse grunt config
-    [ ] progressive picture
-    [ ] css refactor
+    [x] progressive picture
+    [x] css refactor
     [x] browser support audit (var, calc, clip-path, flex, shape-outside)
     [x] @supports wrap
     [ ] ie/edge/lynx fallback/alternative
     [ ] a11y/508 audit
     [ ] a18n?
     [ ] amp this (ampproject)
-    [ ] templatize: mustache, jenkyll, hugo.io
+    [ ] github deployment
+    [ ] simple liquid template for jekyll
+    [ ] travis
+    [ ] create other page types
+    [ ] templatize: mustache, hugo.io
     [ ] consider nav row under header
     [ ] better on big screen (not just bigger)
 
