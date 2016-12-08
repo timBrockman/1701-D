@@ -62,11 +62,12 @@ module.exports = function(grunt) {
       },
     },
 
-    /* Copy the images that don't go through processing into the images/directory */
+    /* Copy the images that don't go through processing into the images/ directory */
     copy: {
       dev: {
         files: [{
           expand: true,
+          flatten:true,
           src: 'src/nomin/*.{gif,jpg,png}',
           dest: 'images/'
         }]

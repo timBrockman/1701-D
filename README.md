@@ -14,8 +14,10 @@
     [x] images base64 backgrounds
     [x] quick optimization checks
     [ ] imagemin or some such
-      [ ] npm installs
-      [ ] reuse grunt config
+      [x] npm installs
+      [x] reuse grunt config
+      [ ] progressive picture
+      [ ] css refactor
     [x] browser support audit (var, calc, clip-path, flex, shape-outside)
     [x] @supports wrap
     [ ] ie/edge/lynx fallback/alternative

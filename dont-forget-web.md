@@ -15,6 +15,8 @@ A checklist of simple standard web tips that I forget.
 
 
 ## CSS basic stuff
+  - boilerplate/normalize
+    [ ] try to use only the ones you need to reduce the number of over-rides
   - html
     [ ] background-color compliments wrapper for when scroll passes body
   - body
