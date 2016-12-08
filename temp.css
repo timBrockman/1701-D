@@ -63,6 +63,10 @@ html {
   -webkit-shape-outside: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
   shape-outside: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
 }
+.thumbBorder{
+  -webkit-shape-outside: polygon(160px 0%, 100% 0%, 100% 256px, 0px 256px, 0px 160px, 160px 0%);
+  shape-outside: polygon(160px 0%, 100% 0%, 100% 256px, 0px 256px, 0px 160px, 160px 0%);
+}
 @media (min-width:768px){
   html{
     font-size:93.75%;/* 1rem = 15px (kind of yuck, but ends up being 8->12px, 16->24px)*/
@@ -75,6 +79,11 @@ html {
     -webkit-shape-outside: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
     shape-outside: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
   }
+  .thumbBorder{
+    -webkit-shape-outside: polygon(236px 0px, 100% 0px, 100% 378px, 0px 378px, 0px 236px, 236px 0px);
+    shape-outside: polygon(236px 0px, 100% 0px, 100% 378px, 0px 378px, 0px 236px, 236px 0px);
+  }
+
 }
 @media (min-width:1024px){
   html{
@@ -88,6 +97,11 @@ html {
     -webkit-shape-outside: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
     shape-outside: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
   }
+  .thumbBorder{
+    -webkit-shape-outside: polygon(310px 0px, 100% 0, 100% 497px, 0px 497px, 0px 310px, 310px 0px);
+    shape-outside: polygon(310px 0px, 100% 0, 100% 497px, 0px 497px, 0px 310px, 310px 0px);
+  }
+
 }
 
 body{
