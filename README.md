@@ -6,24 +6,24 @@
 
 
 ## todo:
-    [ ] add to checklist of things to remember
+    [ ] add checklist of things to remember
     [x] styles for links
     [x] reconsider rem
     [x] fix weird flex on android chrome with navigator bar
-    [ ] images size/picture calculations
+    [x] images size/picture calculations
     [x] images base64 backgrounds
+    [x] quick optimization checks
     [ ] imagemin or some such
-    [ ] better on big screen (not just bigger)
     [x] browser support audit (var, calc, clip-path, flex, shape-outside)
     [x] @supports wrap
     [ ] ie/edge/lynx fallback/alternative
     [ ] a11y/508 audit
     [ ] a18n?
-    [ ] generalize & extract css those who may want alone
-    [ ] preprocessors for those who still use that stuff
     [ ] amp this (ampproject)
     [ ] templatize: mustache, jenkyll, hugo.io
     [ ] consider nav row under header
+    [ ] better on big screen (not just bigger)
+
 
 # future feature wish list
 

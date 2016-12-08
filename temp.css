@@ -226,7 +226,7 @@ footer{
 #socSpace{
   display: none;
 }
-@supports ((-webkit-clip-path:none) or (clip-path:none)){
+@supports ((--triangle) and ()(-webkit-clip-path:none) or (clip-path:none))){
   #profilePicture {
     display: block;
     text-decoration: none;
