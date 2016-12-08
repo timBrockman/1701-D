@@ -13,7 +13,7 @@ module.exports = function(grunt) {
           engine: 'im',
           sizes: [{
             height: '10px',
-            suffix: '_place',
+            suffix: '_placeholder',
             quality: 65
           },
           {
