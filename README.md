@@ -1,36 +1,38 @@
 # [Timbrockman.com || timBrockman.github.io](https://timbrockman.com)
 
 ## Current Iteration
-  This personal page is designed to take as little development time as possible.
-  It uses no frameworks or libraries. Just plain ol' html and css with a little optimization at build time.
-
+  This personal page is designed to take as little development time as possible. It uses no frameworks or libraries, just plain ol' html and css with a little optimization at build time.
+  
+  From the start keeping things simple enough to stay AMP Project compliant has been in the back of my head. The idea will be to ramp into a progressive (likely Polymer) experience from AMP cached content + service worker + use the cached content as the data store to fetch from.
 
 ## todo:
-    [x] add checklist of things to remember
-    [x] styles for links
-    [x] reconsider rem
-    [x] fix weird flex on android chrome with navigator bar
-    [x] images size/picture calculations
-    [x] images base64 backgrounds
-    [x] quick optimization checks
-    [x] imagemin or some such
-      [x] npm installs
-      [x] reuse grunt config
-    [x] progressive picture
-    [x] css refactor
-    [x] browser support audit (var, calc, clip-path, flex, shape-outside)
-    [x] @supports wrap
-    [ ] ie/edge/lynx fallback/alternative
-    [ ] a11y/508 audit
-    [ ] a18n?
-    [ ] amp this (ampproject)
-    [ ] github deployment
-    [ ] simple liquid template for jekyll
-    [ ] travis
-    [ ] create other page types
-    [ ] templatize: mustache, hugo.io
-    [ ] consider nav row under header
-    [ ] better on big screen (not just bigger)
+
+  - [x] add checklist of things to remember
+  - [x] styles for links
+  - [x] reconsider rem
+  - [x] fix weird flex on android chrome with navigator bar
+  - [x] images size/picture calculations
+  - [x] images base64 backgrounds
+  - [x] quick optimization checks
+  - [x] imagemin or some such
+    - [x] npm installs
+    - [x] reuse grunt config
+  - [x] progressive picture
+  - [x] css refactor
+  - [x] browser support audit (var, calc, clip-path, flex, shape-outside)
+  - [x] @supports wrap
+  - [ ] ie/edge/lynx fallback/alternative
+  - [ ] a11y/508 audit
+  - [ ] i18n?
+  - [ ] create other page types (cv/profile, content page)
+  - [ ] create nav row under header and sidebar for mobile
+  - [ ] amp this (ampproject.org)
+  - [ ] github deployment (bash, npm, or grunt)
+  - [ ] start pwa wrapper
+  - [ ] simple liquid template for jekyll
+  - [ ] travis
+  - [ ] templatize: mustache, hugo.io
+  - [ ] better on big screen (not just bigger)
 
 
 # future feature wish list
