@@ -2,7 +2,7 @@
 
 ## Current Iteration
   This personal page is designed to take as little development time as possible. It uses no frameworks or libraries, just plain ol' html and css with a little optimization at build time.
-  
+
   From the start keeping things simple enough to stay AMP Project compliant has been in the back of my head. The idea will be to ramp into a progressive (likely Polymer) experience from AMP cached content + service worker + use the cached content as the data store to fetch from.
 
 ## todo:
@@ -21,11 +21,14 @@
   - [x] css refactor
   - [x] browser support audit (var, calc, clip-path, flex, shape-outside)
   - [x] @supports wrap
-  - [ ] ie/edge/lynx fallback/alternative
+  - [x] ie/edge/lynx fallback/alternative
+  - [ ] fix padding organization
+  - [ ] create other page types (cv/profile, content page)
+    - [x] profile (about page specific to author details or cv/resume)
+    - [ ] single type (display single content chunk like an article)
+  - [ ] create nav row under header and sidebar for mobile
   - [ ] a11y/508 audit
   - [ ] i18n?
-  - [ ] create other page types (cv/profile, content page)
-  - [ ] create nav row under header and sidebar for mobile
   - [ ] amp this (ampproject.org)
   - [ ] github deployment (bash, npm, or grunt)
   - [ ] start pwa wrapper

@@ -15,6 +15,7 @@ A checklist of simple standard web tips that I forget.
 
 
 ## CSS basic stuff
+  - decide what gets padding and margins the elements or the boxes they go in
   - boilerplate/normalize
     [ ] try to use only the ones you need to reduce the number of over-rides
   - html
