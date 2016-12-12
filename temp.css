@@ -58,14 +58,14 @@ html {
 */
 .singleBanner{
   max-height: 160px;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 64%   64%, 0%   64%, 0% 0%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 64%   64%, 0%   64%, 0% 0%);
-  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 64%   64%, 0%   64%, 0% 0%);
-  shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 64%   64%, 0%   64%, 0% 0%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  clip-path:polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
 }
 .bannerBorder{
-  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 64%   64%, 0%   64%, 0% 0%);
-  shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 64%   64%, 0%   64%, 0% 0%);
+  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  shape-outside:  polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
 }
 .projectThumb{
   max-height: 240px;
@@ -164,6 +164,10 @@ h2{
   font-size: 3.2rem;
   line-height: 2.4rem;/*like a living in a trendy tiny house for smaller hobbits*/
 }
+h3{
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+}
 .clear{
   clear:both;
 }
@@ -222,7 +226,8 @@ section{
   align-items: center;
 }
 .bannerBorder{
-  float:right;
+
+  float:left;
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
@@ -246,7 +251,8 @@ section{
 .projectThumb img, .singleBanner img{
   max-width: 100%;
   max-height:100%
-}/*
+}
+/*
 .projectThumb:hover{
   -webkit-filter:grayscale(100%);
   filter:grayscale(100%);
