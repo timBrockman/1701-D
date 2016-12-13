@@ -32,6 +32,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
   font-size: 62.5%;/* 1rem = 10px ala skeleton @dhg*/
   box-sizing: border-box;
+  background-color: black;
   background-color: var(--bg-color);
 }
 .parallaxContainer{/* kind of not interested*/
@@ -54,19 +55,20 @@ html {
   html{
     --triangle: 40vh;
   }
-}
-*/
-.singleBanner{
+}*/
+/*ol stretchy banners*/
+.banner{
   max-height: 160px;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
   clip-path:polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+/*  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);*/
 }
-.bannerBorder{
+.bannerWrap{
   -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
   shape-outside:  polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
 }
+
 .projectThumb{
   max-height: 240px;
   -webkit-clip-path: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
@@ -213,7 +215,7 @@ section{
   border-right: solid var(--bg-hi-color) .4rem;
   background: var(--bg-color);
 }
-.projectThumb, .singleBanner{
+.projectThumb{
   /*-webkit-filter:grayscale(0%);
   filter:grayscale(0%);*/
   background-color: var(--bg-hi-color);
@@ -226,15 +228,16 @@ section{
   align-items: center;
 }
 .bannerWrap{
+  box-sizing: border-box;
   clear:both;
   height: 160px;
   width: 100%;
   position: relative;
   float: left;
-  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
 }
 .banner{
+  background-color: var(--bg-hi-color);
+
   background-size: cover;
   background-position: center;
   position:absolute;
@@ -244,20 +247,16 @@ section{
   right:0;
   min-height: 100%;
   min-width:100%;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-  clip-path:polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-
 }
 .banner img{
   min-height: 100%;
   min-width:100%;
 }
-.bannerBorder{
+/*.bannerBorder{
 
   float:left;
   box-sizing: border-box;
@@ -268,7 +267,7 @@ section{
   justify-content: center;
   align-items: center;
   border-right:solid var(--bg-hi-color) .4rem;
-}
+}*/
 .thumbBorder{
   float: right;
   text-decoration: none;
@@ -280,7 +279,7 @@ section{
   border-bottom:solid var(--bg-hi-color) 1.6rem;
   border-right:solid var(--bg-hi-color) .4rem;
 }
-.projectThumb img, .singleBanner img{
+.projectThumb img{
   max-width: 100%;
   max-height:100%
 }
