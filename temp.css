@@ -22,8 +22,8 @@ html {
   --triangle: 160px;/*formerly 40vh, but jangles on softkey drawer and menu bar in some mobile chromes*/
   --thumb: 240px;/*20vw;*/
   --sparkle: url();
-  --parallax-perspective:1px;/*css chrome & ff only, no mobile safari*/
-  --parallax-distance:-2px;
+  /*--parallax-perspective:1px;/*css chrome & ff only, no mobile safari*/
+  /*--parallax-distance:-2px;*/
   /* @apply's */
 
   /*html basics*/
@@ -224,6 +224,38 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.bannerWrap{
+  clear:both;
+  height: 160px;
+  width: 100%;
+  position: relative;
+  float: left;
+  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+}
+.banner{
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  min-height: 100%;
+  min-width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  clip-path:polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
+
+}
+.banner img{
+  min-height: 100%;
+  min-width:100%;
 }
 .bannerBorder{
 
