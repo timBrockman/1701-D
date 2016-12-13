@@ -144,18 +144,19 @@ h1, h2, h3, h4, h5, h6, .dropout{
   font-weight: 400;
   color: var(--hi-color);
   text-transform: uppercase;
-  padding: 0 .8rem .8rem .8rem;
+  padding: 0; /*0 .8rem .8rem .8rem;*/
   margin: 0px;
 }
 h4, h5, h6, .dropout {
   background-color: var(--base-color);
+  padding-left: .8rem;
 }
 p{
   margin:0px;
-  padding: 0px 0px .8rem 0px;
+  padding: 0px;/* 0px .8rem 0px;*/
   text-indent: 1.6rem;
 }
-p:first-of-type{
+p:first-of-type, .noin{
   text-indent: 0;
 }
 h1{
@@ -169,6 +170,24 @@ h2{
 h3{
   font-size: 2.8rem;
   line-height: 3.2rem;
+}
+h4{
+  font-size:2.4rem;
+}
+h5{
+  font-size: 2rem;
+}
+h6{
+  font-size: 1.6rem;
+}
+.right{
+  text-align: right;
+}
+.pad{
+  padding: 0 .8rem .8rem .8rem;
+}
+p.pad{
+  padding: 0px .8rem;
 }
 .clear{
   clear:both;

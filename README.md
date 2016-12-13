@@ -22,9 +22,13 @@
   - [x] browser support audit (var, calc, clip-path, flex, shape-outside)
   - [x] @supports wrap
   - [x] ie/edge/lynx fallback/alternative
-  - [ ] fix padding organization
+  - [x] fix padding organization
+  - [ ] add styles for lists
+  - [x] add banner styles
+  - [ ] refactor images and banner css to fill container
   - [ ] create other page types (cv/profile, content page)
     - [x] profile (about page specific to author details or cv/resume)
+    - [ ] cv/about content
     - [ ] single type (display single content chunk like an article)
   - [ ] create nav row under header and sidebar for mobile
   - [ ] a11y/508 audit
