@@ -34,6 +34,8 @@
   - [ ] a11y/508 audit
   - [ ] i18n?
   - [ ] amp this (ampproject.org)
+  - [ ] handlebars template (gulp site)
+  - [ ] switch from grunt imagemin to gulp
   - [ ] github deployment (bash, npm, or grunt)
   - [ ] start pwa wrapper
   - [ ] simple liquid template for jekyll

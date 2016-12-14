@@ -13,7 +13,7 @@ material design breakpoints
 **/
 html {
   /* vars */
-  --bg-color: #504242;
+  --bg-color: #65544f;/*#504242;*/
   --bg-hi-color: silver;
   --base-color:black;
   --hi-color:lightskyblue;
@@ -210,6 +210,7 @@ header p{
 section{
   box-sizing: border-box;
   width: 100vw;
+  max-width: 100vw;
   border: solid var(--bg-hi-color) .4rem;
   border-top:solid var(--bg-hi-color) 1.6rem;
   border-right: 0px;
@@ -237,6 +238,7 @@ section{
 .projectThumb{
   /*-webkit-filter:grayscale(0%);
   filter:grayscale(0%);*/
+  
   background-color: var(--bg-hi-color);
   background-size: cover;
   background-position: center;
