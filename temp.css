@@ -324,7 +324,7 @@ footer{
   font-family: impact, sans-serif;/* ie */
   font-family: var(--hs);
   text-transform: uppercase;
-  color: var(--base-color);
+  background-color: var(--base-color);
 }
 /* oh yay ie doesn't support @supports... lol */
 /* ie, edge, others*/
@@ -362,10 +362,11 @@ footer{
     display: block;
     height:var(--triangle);
     width:var(--triangle);
-    /*-webkit-clip-path: polygon(0 0, 100% 0, 0 100%, 0 0);
-    clip-path: polygon(0 0, 100% 0, 0 100%, 0 0); just negative space */
+    -webkit-clip-path: polygon(0 0, 100% 0, 0 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 0 100%, 0 0); /*just negative space */
     -webkit-shape-outside:polygon(0 0, 100% 0, 0 100%, 0 0);
     shape-outside: polygon(0 0, 100% 0, 0 100%, 0 0);
     float: left;
+    background-color: var(--bg-color);
   }
 }
