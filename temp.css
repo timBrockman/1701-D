@@ -61,10 +61,9 @@ html {
   max-height: 160px;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
   clip-path:polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-/*  -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
-  shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);*/
 }
 .bannerWrap{
+  height: 160px;
   -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
   shape-outside:  polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
 }
@@ -96,7 +95,16 @@ html {
     -webkit-shape-outside: polygon(236px 0px, 100% 0px, 100% 378px, 0px 378px, 0px 236px, 236px 0px);
     shape-outside: polygon(236px 0px, 100% 0px, 100% 378px, 0px 378px, 0px 236px, 236px 0px);
   }
-
+  .banner{
+    max-height: 236px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 177px, 33% 177px, calc(33% - 59px)  100%, 0%   100%, 0% 0%);
+    clip-path:polygon(0% 0%, 100% 0%, 100% 177px, 33% 177px, calc(33% - 59px)  100%, 0%   100%, 0% 0%);
+  }
+  .bannerWrap{
+    height: 236px;
+    -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 177px, 33% 177px, calc(33% - 59px)  100%, 0%   100%, 0% 0%);
+    shape-outside:  polygon(0% 0%, 100% 0%, 100% 177px, 33% 177px, calc(33% - 59px)  100%, 0%   100%, 0% 0%);
+  }
 }
 @media (min-width:1024px){
   html{
@@ -114,7 +122,16 @@ html {
     -webkit-shape-outside: polygon(310px 0px, 100% 0, 100% 497px, 0px 497px, 0px 310px, 310px 0px);
     shape-outside: polygon(310px 0px, 100% 0, 100% 497px, 0px 497px, 0px 310px, 310px 0px);
   }
-
+  .banner{
+    max-height: 312px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 234px, 33% 234px, calc(33% - 78px)  100%, 0%   100%, 0% 0%);
+    clip-path:polygon(0% 0%, 100% 0%, 100% 234px, 33% 234px, calc(33% - 78px)  100%, 0%   100%, 0% 0%);
+  }
+  .bannerWrap{
+    height: 312px;
+    -webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 234px, 33% 234px, calc(33% - 78px)  100%, 0%   100%, 0% 0%);
+    shape-outside:  polygon(0% 0%, 100% 0%, 100% 234px, 33% 234px, calc(33% - 78px)  100%, 0%   100%, 0% 0%);
+  }
 }
 
 body{
@@ -251,7 +268,6 @@ section{
 .bannerWrap{
   box-sizing: border-box;
   clear:both;
-  height: 160px;
   width: 100%;
   position: relative;
   float: left;
