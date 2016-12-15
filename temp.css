@@ -128,12 +128,12 @@ body{
   position: relative;
 }
 a{
-  text-decoration: none;
+  text-decoration: underline;;
   color: var(--hi-color);
   outline: 0;
 }
 a:hover, a:active{
-  color: var(--base-color);
+  text-decoration: none;
 }
 a:visited, a:active{
  text-decoration:line-through;
