@@ -70,28 +70,40 @@ html {
 
 .projectThumb{
   max-height: 240px;
-  -webkit-clip-path: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
-  clip-path: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
+  -webkit-clip-path: polygon(170px 0%, 100% 0%, 100% 240px, 10px 240px, 10px 160px, 170px 0%);
+  clip-path: polygon(170px 0%, 100% 0%, 100% 240px, 10px 240px, 10px 160px, 170px 0%);
   -webkit-shape-outside: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
   shape-outside: polygon(160px 0%, 100% 0%, 100% 240px, 0px 240px, 0px 160px, 160px 0%);
 }
 .thumbBorder{
+    -webkit-clip-path: polygon(170px 0%, 100% 0%, 100% 100%, 10px 100%, 10px 160px, 170px 0%);
+  clip-path: polygon(170px 0%, 100% 0%, 100% 100%, 10px 100%, 10px 160px, 170px 0%);
+
   -webkit-shape-outside: polygon(160px 0%, 100% 0%, 100% 256px, 0px 256px, 0px 160px, 160px 0%);
   shape-outside: polygon(160px 0%, 100% 0%, 100% 256px, 0px 256px, 0px 160px, 160px 0%);
+}
+body{
+  font-size: 1.6rem;
 }
 @media (min-width:768px){
   html{
     font-size:93.75%;/* 1rem = 15px (kind of yuck, but ends up being 8->12px, 16->24px)*/
     --triangle: 236px;/* h1 + p + 2px = 64px + 170px + 2px = 236px*/
   }
+  body{
+    font-size: 1.2rem;/*(18px)*/
+  }
   .projectThumb{
     max-height: 354px;
-    -webkit-clip-path: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
-    clip-path: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
+    -webkit-clip-path: polygon(251px 0px, 100% 0px, 100% 354px, 15px 354px, 15px 236px, 251px 0px);
+    clip-path: polygon(251px 0px, 100% 0px, 100% 354px, 15px 354px, 15px 236px, 251px 0px);
     -webkit-shape-outside: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
     shape-outside: polygon(236px 0px, 100% 0px, 100% 354px, 0px 354px, 0px 236px, 236px 0px);
   }
   .thumbBorder{
+    -webkit-clip-path: polygon(251px 0px, 100% 0px, 100% 100%, 15px 100%, 15px 236px, 251px 0px);
+    clip-path: polygon(251px 0px, 100% 0px, 100% 100%, 15px 100%, 15px 236px, 251px 0px);
+
     -webkit-shape-outside: polygon(236px 0px, 100% 0px, 100% 378px, 0px 378px, 0px 236px, 236px 0px);
     shape-outside: polygon(236px 0px, 100% 0px, 100% 378px, 0px 378px, 0px 236px, 236px 0px);
   }
@@ -110,6 +122,9 @@ html {
   html{
     font-size:125%;/* 1rem = 20px (kind of mvp lazy, but ends up being 8->16px, 16->32px)*/
     --triangle: 310px; /* h1 + p + 2px = 84px + 224px + 2px = 310px */
+  }
+  body{
+    font-size: 1rem;/*(20px)*/
   }
   .projectThumb{
     max-height: 465px;
@@ -138,7 +153,7 @@ body{
   background-color: var(--bg-color);
 
   color: var(--base-color);
-  font-size: 1.6rem; /* 1.6rem */
+  /*font-size: 1.6rem; change with breaks */
   margin:0px;
   padding: 0px;
   min-height: 100vh;
@@ -169,12 +184,15 @@ h4, h5, h6, .dropout {
   padding-left: .8rem;
 }
 p{
-  margin:0px;
+  margin: 1rem;
   padding: 0px;/* 0px .8rem 0px;*/
   text-indent: 1.6rem;
 }
 p:first-of-type, .noin{
   text-indent: 0;
+}
+header p{
+  margin: 0;
 }
 h1{
   font-size: 4.8rem;
@@ -306,10 +324,11 @@ section{
   border-right:solid var(--bg-hi-color) .4rem;
 }*/
 .thumbBorder{
+  box-sizing: border-box;
   float: right;
   text-decoration: none;
   outline: none;
-  width: 50%;
+  width: calc(50% + 1rem);
   display: flex;
   justify-content: center;
   align-items: center;
