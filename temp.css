@@ -128,12 +128,15 @@ body{
   }
   .projectThumb{
     max-height: 465px;
-    -webkit-clip-path: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
-    clip-path: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
+    -webkit-clip-path: polygon(330px 0px, 100% 0, 100% 465px, 20px 465px, 20px 310px, 330px 0px);
+    clip-path: polygon(330px 0px, 100% 0, 100% 465px, 20px 465px, 20px 310px, 330px 0px);
     -webkit-shape-outside: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
     shape-outside: polygon(310px 0px, 100% 0, 100% 465px, 0px 465px, 0px 310px, 310px 0px);
   }
   .thumbBorder{
+    -webkit-clip-path: polygon(330px 0px, 100% 0, 100% 100%, 20px 100%, 20px 310px, 330px 0px);
+    clip-path: polygon(330px 0px, 100% 0, 100% 100%, 20px 100%, 20px 310px, 330px 0px);
+
     -webkit-shape-outside: polygon(310px 0px, 100% 0, 100% 497px, 0px 497px, 0px 310px, 310px 0px);
     shape-outside: polygon(310px 0px, 100% 0, 100% 497px, 0px 497px, 0px 310px, 310px 0px);
   }
