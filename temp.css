@@ -373,6 +373,7 @@ footer{
 #socSpace{
   display: none;
 }
+
 @supports ((--triangle:none) and ((-webkit-clip-path:none) or (clip-path:none))){
   #profilePicture {
     display: block;

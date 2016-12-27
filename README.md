@@ -23,18 +23,19 @@
   - [x] @supports wrap
   - [x] ie/edge/lynx fallback/alternative
   - [x] fix padding organization
-  - [ ] add styles for lists
   - [x] add banner styles
-  - [ ] refactor images and banner css to fill container
+  - [x] refactor images and banner css to fill container
+  - [ ] amp this (ampproject.org)
+  - [ ] liquid template (gulp site)
   - [ ] create other page types (cv/profile, content page)
     - [x] profile (about page specific to author details or cv/resume)
     - [ ] cv/about content
     - [ ] single type (display single content chunk like an article)
+  - [ ] add styles for lists
+  - [ ] md styles (create checklist)
   - [ ] create nav row under header and sidebar for mobile
   - [ ] a11y/508 audit
   - [ ] i18n?
-  - [ ] amp this (ampproject.org)
-  - [ ] handlebars template (gulp site)
   - [ ] switch from grunt imagemin to gulp
   - [ ] github deployment (bash, npm, or grunt)
   - [ ] start pwa wrapper
