@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-<!-- end initial amp stuff -->
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<!-- end initial amp stuff and includes -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tim Brockman</title>
@@ -33,6 +34,9 @@
     <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   </head>
   <body>
+    <amp-sidebar id="sidebar" layout="nodisplay" side="left">
+      foo
+    </amp-sidebar>
     <header>
 			<div id="idBlock">
 				<picture  id="profilePicture">
@@ -42,7 +46,7 @@
 				  <img src="images/tim-sq-160_profile.jpg" alt="profile picture" />
 				</picture>
 				<div>
-          <h6 class="pad" id="burger" on="tap:amp-sidebar.toggle">&equiv;
+          <h6 class="pad" id="burger" on="tap:sidebar.toggle">&equiv;
           </h6>
 					<h1 class="lowCeiling pad right">Timothy<br/>Brockman</h1>
 					<h6 class="pad">IT Manager / Code Contributor</h6>
