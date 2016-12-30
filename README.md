@@ -5,6 +5,10 @@
 
   From the start keeping things simple enough to stay AMP Project compliant has been in the back of my head. The idea will be to ramp into a progressive (likely Polymer) experience from AMP cached content + service worker + use the cached content as the data store to fetch from.
 
+## how tos
+  
+  - build: `npm build` runs grunt build process
+  - deploy: `npm deploy`  git subtree push --prefix dist origin master
 
 ## todo:
 I get distracted, have new ideas, then make longer lists.
@@ -20,7 +24,8 @@ I get distracted, have new ideas, then make longer lists.
       - [ ] cv/about content
       - [ ] single type (display single content chunk like an article)
       - [x] profile (about page specific to author details or cv/resume)
-  - [ ] start separate src/build branch
+  - [x] start separate src/build branch
+  - [ ] remove build files from master
   - [ ] create deploy process to subtree push build branch dist/ to master
  
 ### backlog:
@@ -32,9 +37,7 @@ I get distracted, have new ideas, then make longer lists.
   - [ ] a11y/508 audit
   - [ ] i18n?
   - [ ] switch from grunt imagemin to gulp
-  - [ ] github deployment (bash, npm, or grunt)
   - [ ] start pwa wrapper
-  - [ ] simple liquid template for jekyll
   - [ ] travis
   - [ ] templatize: mustache, hugo.io
   - [ ] better on big screen (not just bigger)
