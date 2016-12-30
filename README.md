@@ -64,29 +64,29 @@ I get distracted, have new ideas, then make longer lists.
   - [x] refactor images and banner css to fill container
 
 
-# future feature wish list
+## future feature wish list
 
-## Personal/professional site containing:
+### Personal/professional site containing:
   - Profile: summary, social, etc.
   - CV summary / Professional overview (.pdf résumé)
   - (future) Writing: (Announcements, Presentations, Publications, and Blog entries)
   - Recent works: (Project Portfolio)
 
-### Profile
+#### Profile
   - Current static landing page
   - social profiles, summary, etc.
   - Summarize projects and link to repos
   - Link to résumé pdf
 
-### CV
+#### CV
   - pdf role focused resumes
   - (future) role focused infographic pages
 
-### Writing / Content
-  - (future) hugo themed static amp pages
-  - (future) polymer spa content parsed by marked-element
+#### Writing / Content
+  - -(future) hugo themed static amp pages-
+  - (future) polymer spa content -parsed by marked-element-
 
-### Featured Repos and Recent Works
+#### Featured Repos and Recent Works
   - current div figure img scr
   - (future) component of above
   - (future) amp-image of above for static
