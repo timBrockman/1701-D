@@ -227,6 +227,9 @@ h6{
 p.pad{
   padding: 0px .8rem;
 }
+#socList h1{
+  padding: 0px .8rem .8rem .8rem; 
+}
 .clear{
   clear:both;
 }
