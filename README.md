@@ -26,7 +26,7 @@ I get distracted, have new ideas, then make longer lists.
       - [x] profile (about page specific to author details or cv/resume)
   - [x] start separate src/build branch
   - [ ] remove build files from master
-  - [ ] create deploy process to subtree push build branch dist/ to master
+  - [x] create deploy process to subtree push build branch dist/ to master
  
 ### backlog:
 
