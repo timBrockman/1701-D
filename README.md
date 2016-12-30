@@ -5,7 +5,41 @@
 
   From the start keeping things simple enough to stay AMP Project compliant has been in the back of my head. The idea will be to ramp into a progressive (likely Polymer) experience from AMP cached content + service worker + use the cached content as the data store to fetch from.
 
+
 ## todo:
+I get distracted, have new ideas, then make longer lists.
+
+### current/queued:
+
+  - [ ] templating, pages, & layouts
+    - [ ] amp this (ampproject.org)
+    - [ ] liquid templates
+      - [ ] build process
+      - [ ] compontentish snippet breakdown
+    - [ ] create other page types (cv/profile, content page)
+      - [ ] cv/about content
+      - [ ] single type (display single content chunk like an article)
+      - [x] profile (about page specific to author details or cv/resume)
+  - [ ] start separate src/build branch
+  - [ ] create deploy process to subtree push build branch dist/ to master
+ 
+### backlog:
+
+  - [ ] liquid template (gulp site)
+  - [ ] add styles for lists
+  - [ ] md styles (create checklist)
+  - [ ] create nav row under header and sidebar for mobile
+  - [ ] a11y/508 audit
+  - [ ] i18n?
+  - [ ] switch from grunt imagemin to gulp
+  - [ ] github deployment (bash, npm, or grunt)
+  - [ ] start pwa wrapper
+  - [ ] simple liquid template for jekyll
+  - [ ] travis
+  - [ ] templatize: mustache, hugo.io
+  - [ ] better on big screen (not just bigger)
+
+### done:
 
   - [x] add checklist of things to remember
   - [x] styles for links
@@ -25,24 +59,6 @@
   - [x] fix padding organization
   - [x] add banner styles
   - [x] refactor images and banner css to fill container
-  - [ ] amp this (ampproject.org)
-  - [ ] liquid template (gulp site)
-  - [ ] create other page types (cv/profile, content page)
-    - [x] profile (about page specific to author details or cv/resume)
-    - [ ] cv/about content
-    - [ ] single type (display single content chunk like an article)
-  - [ ] add styles for lists
-  - [ ] md styles (create checklist)
-  - [ ] create nav row under header and sidebar for mobile
-  - [ ] a11y/508 audit
-  - [ ] i18n?
-  - [ ] switch from grunt imagemin to gulp
-  - [ ] github deployment (bash, npm, or grunt)
-  - [ ] start pwa wrapper
-  - [ ] simple liquid template for jekyll
-  - [ ] travis
-  - [ ] templatize: mustache, hugo.io
-  - [ ] better on big screen (not just bigger)
 
 
 # future feature wish list
