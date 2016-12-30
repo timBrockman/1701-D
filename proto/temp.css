@@ -14,7 +14,7 @@ material design breakpoints
 html {
   /* vars */
   --bg-color: #65544f;/*#504242;*/
-  --bg-hi-color: silver;
+  --bg-hi-color: black;
   --base-color:black;
   --hi-color:lightskyblue;
   --source:"courier new", courier, monospace;
