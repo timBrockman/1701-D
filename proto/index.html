@@ -9,22 +9,22 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
     <title>Tim Brockman</title>
 <!-- favicons -->
-    <link rel="icon" type="image/png" sizes="192x192" href="./images/logo-192.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="./images/logo-57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./images/logo-60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./images/logo-72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./images/logo-76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./images/logo-114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./images/logo-120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./images/logo-144.png"./images/logo-.png>
-    <link rel="apple-touch-icon" sizes="152x152" href="./images/logo-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/logo-180.png">
-    <link rel="icon" type="image/png" sizes="228x228" href="./images/logo-228.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/logo-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo-32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./images/logo-96.png">
-    <link rel="icon" type="image/png" sizes="230x230" href="./images/logo-230.png">
-    <link rel="shortcut icon" href="./images/logo.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/logo-icon-192.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/logo-icon-57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/logo-icon-60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/logo-icon-72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/logo-icon-76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/logo-icon-114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/logo-icon-120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/logo-icon-144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/logo-icon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/logo-icon-180.png">
+    <link rel="icon" type="image/png" sizes="228x228" href="./images/logo-icon-228.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/logo-icon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo-icon-32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/logo-icon-96.png">
+    <link rel="icon" type="image/png" sizes="230x230" href="./images/logo-icon-230.png">
+    <link rel="shortcut icon" href="./images/logo-icon.ico">
 <!--cssstart-->
 		<link href="https://fonts.googleapis.com/css?family=Jockey+One|Cairo" rel="stylesheet">
 		<link href="temp.css" rel="stylesheet">
@@ -51,10 +51,11 @@
   </head>
   <body>
     <amp-sidebar id="sidebar" layout="nodisplay" side="left">
-      <div>  
+      <div class="center">
         <svg id="logo" width="100" height="100" viewPort="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
           <polyline points="50,50 50,1 99,1 50,50 99,99 50,99 50,50 1,1 50,1" fill="black" stroke="lightskyblue" stroke-width="3" stroke-linejoin="miter"/>
         </svg>
+        <div id="close-sidebar" on="tap:sidebar.close">&lt;</div>
       </div>
       foo
     </amp-sidebar>
