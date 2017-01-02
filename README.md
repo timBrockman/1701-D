@@ -25,6 +25,7 @@ I get distracted, have new ideas, then make longer lists.
       - [ ] single type (display single content chunk like an article)
       - [x] profile (about page specific to author details or cv/resume)
   - [x] start separate src/build branch
+  - [ ] svg logo
   - [ ] remove build files from master
   - [x] create deploy process to subtree push build branch dist/ to master
  

@@ -53,6 +53,48 @@ module.exports = function(grunt) {
           cwd: 'src/images/',
           dest: 'images/'
         }]
+      },
+      logo:{
+        options:{
+          engine:'im',
+          sizes:[{
+            height: '16px',
+          },{
+            height: '32px',
+          },{
+            height: '57px',
+          },{
+            height: '60px',
+          },{
+            height: '72px',
+          },{
+            height: '76px',
+          },{
+            height: '96px',
+          },{
+            height: '114px',
+          },{
+            height: '120px',
+          },{
+            height: '144px',
+          },{
+            height: '152px',
+          },{
+            height: '180px',
+          },{
+            height: '192px',
+          },{
+            height: '228px',
+          },{
+            height: '230px',
+          }]
+        },
+        files:[{
+          expand:true,
+          src:['*.png'],
+          cwd:'src/logo/',
+          dest:'images/'
+        }]
       }
     },
 
