@@ -101,8 +101,11 @@ module.exports = function(grunt) {
     /* Clear out the images directory if it exists */
     clean: {
       dev: {
-        src: ['images'],
+        src: ['images']
       },
+      proto:{
+        src:['proto/images']
+      }
     },
 
     /* Generate the images directory if it is missing */
@@ -120,10 +123,18 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           flatten:true,
-          src: 'src/nomin/*.{gif,jpg,png}',
+          src: 'src/nomin/*.{gif,jpg,png,ico}',
           dest: 'images/'
         }]
       },
+      proto:{
+        files:[{
+          expand:true,
+          flatten:true,
+          src:'images/*.{gif,jpg,png,ico}',
+          dest:'proto/images/'
+        }]
+      }
     },
   });
 
@@ -131,6 +142,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
+  grunt.registerTask('default', ['clean', 'mkdir', 'copy:dev', 'responsive_images','copy:proto']);
 
 };
