@@ -62,6 +62,9 @@ html {
   background-color: var(--bg-hi-color);
   color: var(--hi-color);
 }
+#logo{
+  transform: scale(.64);
+}
 .banner{
   max-height: 160px;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120px, 33% 120px, calc(33% - 40px)  100%, 0%   100%, 0% 0%);
@@ -243,7 +246,7 @@ p.pad{
 .clear{
   clear:both;
 }
-.center{
+.centerFlex{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,7 +254,10 @@ p.pad{
 .right{
   text-align:right;
 }
-#burger{
+.center{
+  text-align: center;
+}
+.pointer{
   cursor: pointer;
 }
 header{
