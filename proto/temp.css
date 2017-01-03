@@ -249,7 +249,7 @@ p.pad{
   align-items: center;
 }
 .right{
-  float:right;
+  text-align:right;
 }
 #burger{
   cursor: pointer;
@@ -403,8 +403,8 @@ footer{
     display: block;
     text-decoration: none;
     outline: none;
-    -webkit-clip-path: polygon(0 0, 101% 0, 101% 100%, 0 0);
-    clip-path: polygon(0 0, 101% 0, 101% 100%, 0 0);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
     -webkit-shape-outside: polygon(0 0, 100% 100%, 100% 0, 0 0);
     shape-outside: polygon(0 0, 100% 100%, 100% 0, 0 0);
     float:right;

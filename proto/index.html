@@ -60,12 +60,15 @@
     </amp-sidebar>
     <header>
 			<div id="idBlock">
-				<picture  id="profilePicture">
-          <source media="print" srcset="images/tim-sq-310_profile.jpg">
-          <source media="(min-width:1024px)" srcset="images/tim-sq-310_profile.jpg"/>
-          <source media="(min-width:768px)" srcset="images/tim-sq-236_profile.jpg"/>
-				  <img src="images/tim-sq-160_profile.jpg" alt="profile picture" />
-				</picture>
+				<div id="profilePicture">
+          <amp-img src="images/tim-sq-310_profile.jpg" alt="profile picture"
+            srcset="images/tim-sq-310_profile.jpg 1024w, images/tim-sq-236_profile.jpg 768w, images/tim-sq-160_profile.jpg 320w"
+            width="100"
+            height="100"
+            layout="responsive"
+          >
+            </amp-img>
+				</div>
 				<div>
           <h5 class="pad" id="burger" on="tap:sidebar.toggle">&equiv;
           </h5>
