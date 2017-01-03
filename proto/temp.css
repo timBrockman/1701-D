@@ -95,7 +95,7 @@ body{
     --triangle: 236px;/* h1 + p + 2px = 64px + 170px + 2px = 236px*/
   }
   #sidebar{
-    width:504px;
+    width: 50vw;
   }
   body{
     font-size: 1.2rem;/*(18px)*/
@@ -242,6 +242,14 @@ p.pad{
 }
 .clear{
   clear:both;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  float:right;
 }
 #burger{
   cursor: pointer;
