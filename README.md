@@ -17,8 +17,8 @@ I get distracted, have new ideas, then make longer lists.
 
   - [ ] templating, pages, & layouts
     - [ ] amp this (ampproject.org)
-      - [ ] metadata
-      - [ ] amp sidebar
+      - [x] metadata
+      - [x] amp sidebar
       - [ ] amp images
       - [ ] css -> style amp-custom
     - [ ] liquid templates

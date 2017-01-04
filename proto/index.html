@@ -68,11 +68,9 @@
 				<div id="profilePicture">
           <amp-img src="images/tim-sq-310_profile.jpg" alt="profile picture"
             srcset="images/tim-sq-310_profile.jpg 1024w, images/tim-sq-236_profile.jpg 768w, images/tim-sq-160_profile.jpg 320w"
-            width="100"
-            height="100"
-            layout="responsive"
-          >
-            </amp-img>
+            width="160"
+            height="160"
+            layout="responsive"></amp-img>
 				</div>
 				<div>
           <h5 class="pad pointer" on="tap:sidebar.toggle">&equiv;
@@ -98,13 +96,21 @@
 
     <header id="pageTitle">
 			<div class="secHeader">
-        <div class="bannerWrap rightEdge">
-    			<picture class="banner" style="background-image:url(images/projects-10_placeholder.png)">
+        <div class="bannerWrap">
+          <!--div class="banner phProjects" style="background-image:url(images/projects-10_placeholder.png)"-->
+            <amp-img src="images/projects-465_project.png" alt="projects on github"
+              srcset="images/projects-465_project.png 1024w, images/projects-354_project.png 768w, images/projects-240_project.png 320w"
+              width="100"
+              
+              layout="responsive"
+              class="banner"></amp-img>
+          <!--/div -->
+    			<!--picture class="banner" style="background-image:url(images/projects-10_placeholder.png)">
             <source media="print" srcset="images/projects-465_project.png">
             <source media="(min-width:1024px)" srcset="images/projects-465_project.png"/>
             <source media="(min-width:768px)" srcset="images/projects-354_project.png"/>
             <img src="images/projects-240_project.png" alt="Projects on Github" />
-          </picture>
+          </picture -->
         </div>
         <h3 class="dropout rightEdge pad">Github Projects</h3>
         <h6 class="rightEdge pad">Here are a few of my favorite repos:</h6>
