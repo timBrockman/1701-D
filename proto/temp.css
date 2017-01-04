@@ -1,13 +1,15 @@
 /*
-base styles
-material design breakpoints
+base/boilerplate styles
 
-  - (default) 480, 600,
-  - (default) portrait zig-zag header
-  - landscape del header
-  - 840, 960,
-  - 1280, 1440, 1600dp
+app/frame styles
 
+content styles
+
+component styles
+
+media queries
+
+fancy stuff when supported
 */
 /*{border:solid red 1px;}
 **/
@@ -282,7 +284,6 @@ p.pad{
   max-width: 100vw;
   display:flex;
   flex-wrap: wrap;
-  /*padding-bottom: 3.2rem;*/
 }
 #idHeader > div{
   min-width:275px; /*calc(var(--triangle) + 6.4rem);*/
@@ -294,13 +295,10 @@ p.pad{
 }
 section{
   box-sizing: border-box;
-  /*width: 100vw; does wierd things in some windows chromes*/
   max-width: 100vw;
   border: solid var(--bg-hi-color) .4rem;
   border-top:solid var(--bg-hi-color) 1.6rem;
   border-right: 0px;
-  /*border-bottom:solid var(--base-color) 4px;*/
-  /*margin: 1.6rem 0px;*/
 }
 .secHeader{
   clear:both;
@@ -321,9 +319,6 @@ section{
   background: var(--bg-color);
 }
 .projectThumb{
-  /*-webkit-filter:grayscale(0%);
-  filter:grayscale(0%);*/
-
   background-color: var(--bg-hi-color);
   background-size: cover;
   background-position: center;
@@ -362,18 +357,6 @@ section{
   min-width:100%;
   height:initial;/* overrides amp image distortion */
 }
-/*.bannerBorder{
-
-  float:left;
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right:solid var(--bg-hi-color) .4rem;
-}*/
 .thumbBorder{
   box-sizing: border-box;
   float: right;
