@@ -133,6 +133,14 @@ module.exports = function(grunt) {
           src:'images/*.{gif,jpg,png,ico}',
           dest:'proto/images/'
         }]
+      },
+      cp:{
+        files:[{
+          expand:true,
+          flatten:true,
+          src:'src/cp/*.*',
+          dest:'proto/'
+        }]
       }
     },
   });
