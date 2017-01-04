@@ -13,38 +13,37 @@ module.exports = function(grunt) {
           engine: 'im',
           sizes: [{
             height: '10px',
-            suffix: '_placeholder',
-            quality: 65
+            suffix: '_placeholder'
           },
           {
             height: '160px',
             suffix: '_profile',
-            quality: 65
+            quality: 100
           },
           {
             height: '236px',
             suffix: '_profile',
-            quality: 65
+            quality: 100
           },
           {
             height: '240px',
             suffix: '_project',
-            quality: 65
+            quality: 100
           },
           {
             height: '310px',
             suffix: '_profile',
-            quality: 65
+            quality: 85
           },
           {
             height: '354px',
             suffix: '_project',
-            quality: 65
+            quality: 85
           },
           {
             height: '465px',
             suffix: '_project',
-            quality: 65
+            quality: 85
           }]
         },
         files: [{
