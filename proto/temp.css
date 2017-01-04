@@ -62,6 +62,23 @@ html {
   background-color: var(--bg-hi-color);
   color: var(--hi-color);
 }
+.navcolumn{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top:solid var(--hi-color) .8rem;
+}
+.navcolumn a {
+  width: 100%;
+  color: var(--hi-color);
+  padding: .8rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-bottom: solid var(--hi-color) .8rem;
+  text-transform: uppercase;
+}
 #logoWrap{
   transform: scale(.64);
 }

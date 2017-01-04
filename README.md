@@ -17,9 +17,13 @@ I get distracted, have new ideas, then make longer lists.
 
   - [ ] templating, pages, & layouts
     - [ ] amp this (ampproject.org)
+      - [ ] metadata
+      - [ ] amp sidebar
+      - [ ] amp images
+      - [ ] css -> style amp-custom
     - [ ] liquid templates
       - [ ] build process
-      - [ ] compontentish snippet breakdown
+      - [ ] compontentish snippet breakdown vs 7-1
     - [ ] create other page types (cv/profile, content page)
       - [ ] cv/about content
       - [ ] single type (display single content chunk like an article)
