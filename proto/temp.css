@@ -62,7 +62,7 @@ html {
   background-color: var(--bg-hi-color);
   color: var(--hi-color);
 }
-#logo{
+#logoWrap{
   transform: scale(.64);
 }
 .banner{
@@ -204,7 +204,7 @@ p{
 p:first-of-type, .noin{
   text-indent: 0;
 }
-header p{
+#idHeader p{
   margin: 0;
 }
 h1{
@@ -260,19 +260,19 @@ p.pad{
 .pointer{
   cursor: pointer;
 }
-header{
+#idHeader{
   min-height: var(--triangle);
   max-width: 100vw;
   display:flex;
   flex-wrap: wrap;
   /*padding-bottom: 3.2rem;*/
 }
-header > div{
+#idHeader > div{
   min-width:275px; /*calc(var(--triangle) + 6.4rem);*/
   flex-grow: 1;
   flex-basis: 275px;/*safari trashness*/
 }
-header p{
+#idHeader p{
   padding: 0px .8rem;
 }
 section{
