@@ -33,6 +33,7 @@ I get distracted, have new ideas, then make longer lists.
   - [x] svg logo
   - [x] sidebar and burger style
   - [x] favicons and other icons
+  - [ ] starter content
   - [ ] remove build files from master
   - [x] create deploy process to subtree push build branch dist/ to master
  
