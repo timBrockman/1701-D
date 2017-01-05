@@ -21,6 +21,7 @@ I get distracted, have new ideas, then make longer lists.
       - [x] amp sidebar
       - [x] amp images
       - [ ] css -> style amp-custom
+      - [ ] amp development=1 checklist
     - [ ] liquid templates
       - [ ] build process
       - [ ] compontentish snippet/partial breakdown vs 7-1
