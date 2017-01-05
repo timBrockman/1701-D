@@ -114,12 +114,12 @@
 		<section>
 			<div class="secHeader">
         <div class="thumbBorder">
-    			<picture class="projectThumb" style="background-image:url(images/app-layout-10_placeholder.png)">
-            <source media="print" srcset="images/app-layout-465_project.png">
-            <source media="(min-width:1024px)" srcset="images/app-layout-465_project.png"/>
-            <source media="(min-width:768px)" srcset="images/app-layout-354_project.png"/>
-            <img src="images/app-layout-240_project.png" alt="PolymerElements/App-layout" />
-          </picture>
+          <amp-img src="images/app-layout-465_project.png" alt="PolymerElements/App-layout"
+            srcset="images/app-layout-465_project.png 1024w, images/app-layout-354_project.png 768w, images/app-layout-240_project.png 320w"
+            width="100"
+            height="100"
+            layout="responsive"
+            class="projectThumb"></amp-img>
         </div>
 				<h2 class="pad">Polymer Elements App Layout</h2>
         <h6>Contributions: May 2016</h6>

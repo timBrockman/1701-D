@@ -322,8 +322,9 @@ section{
   background-color: var(--bg-hi-color);
   background-size: cover;
   background-position: center;
-  height:100%;
-  width: 100%;
+  max-width: 100%;
+  max-height:100%;
+  height:initial;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,10 +369,6 @@ section{
   align-items: center;
   border-bottom:solid var(--bg-hi-color) 1.6rem;
   border-right:solid var(--bg-hi-color) .4rem;
-}
-.projectThumb img{
-  max-width: 100%;
-  max-height:100%
 }
 /*
 .projectThumb:hover{
