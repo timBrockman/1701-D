@@ -19,18 +19,18 @@ I get distracted, have new ideas, then make longer lists.
     - [ ] amp this (ampproject.org)
       - [x] metadata
       - [x] amp sidebar
-      - [ ] amp images
+      - [x] amp images
       - [ ] css -> style amp-custom
     - [ ] liquid templates
       - [ ] build process
-      - [ ] compontentish snippet breakdown vs 7-1
+      - [ ] compontentish snippet/partial breakdown vs 7-1
     - [ ] create other page types (cv/profile, content page)
       - [ ] cv/about content
       - [ ] single type (display single content chunk like an article)
       - [x] profile (about page specific to author details or cv/resume)
   - [x] start separate src/build branch
   - [x] svg logo
-  - [ ] sidebar and burger style
+  - [x] sidebar and burger style
   - [x] favicons and other icons
   - [ ] remove build files from master
   - [x] create deploy process to subtree push build branch dist/ to master
