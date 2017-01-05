@@ -16,12 +16,12 @@ I get distracted, have new ideas, then make longer lists.
 ### current/queued:
 
   - [ ] templating, pages, & layouts
-    - [ ] amp this (ampproject.org)
+    - [x] amp this (ampproject.org)
       - [x] metadata
       - [x] amp sidebar
       - [x] amp images
-      - [ ] css -> style amp-custom
-      - [ ] amp development=1 checklist
+      - [x] css -> style amp-custom
+      - [x] amp development=1 checklist
     - [ ] liquid templates
       - [ ] build process
       - [ ] compontentish snippet/partial breakdown vs 7-1
@@ -41,7 +41,9 @@ I get distracted, have new ideas, then make longer lists.
 
   - [ ] liquid template (gulp site)
   - [ ] add styles for lists
-  - [ ] md styles (create checklist)
+  - [ ] add styles for tables
+  - [ ] create image helper/mixin
+  - [ ] md/content styles (create checklist)
   - [ ] create nav row under header and sidebar for mobile
   - [ ] a11y/508 audit
   - [ ] i18n?
