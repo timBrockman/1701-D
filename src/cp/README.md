@@ -40,6 +40,7 @@ I get distracted, have new ideas, then make longer lists.
 ### backlog:
 
   - [ ] liquid template (gulp site)
+  - [ ] add social share
   - [ ] add styles for lists
   - [ ] add styles for tables
   - [ ] create image helper/mixin
