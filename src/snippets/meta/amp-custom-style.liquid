@@ -1,4 +1,5 @@
-/*
+    <style amp-custom>
+    /*
 base/boilerplate styles
 
 app/frame styles
@@ -11,8 +12,7 @@ media queries
 
 fancy stuff when supported
 */
-/*{border:solid red 1px;}
-**/
+
 html {
   /* vars */
   --bg-color: #65544f;/*#504242;*/
@@ -24,9 +24,6 @@ html {
   --triangle: 160px;/*formerly 40vh, but jangles on softkey drawer and menu bar in some mobile chromes*/
   --thumb: 240px;/*20vw;*/
   --sparkle: url();
-  /*--parallax-perspective:1px;/*css chrome & ff only, no mobile safari*/
-  /*--parallax-distance:-2px;*/
-  /* @apply's */
 
   /*html basics*/
   font-family: "Cairo", "Roboto", sans-serif; /* 1 */
@@ -46,18 +43,6 @@ html {
   transform-origin: bottom right;
   transform: translateZ(var(--parallax-distance)) scale(3);
 }
-/*hard px triangle to height of social block + a few
-
-@media (orientation:portrait) {
-  html{
-    --triangle: 25vh;
-  }
-}
-@media (orientation:landscape) {
-  html{
-    --triangle: 40vh;
-  }
-}*/
 /*ol stretchy banners*/
 #sidebar{
   width:304px;
@@ -307,7 +292,6 @@ section{
   border-right:solid var(--bg-hi-color) .4rem;
 }
 .secBody{
-  /* clear: both; actualy like better without */
   padding:0px .8rem;
 }
 .secFooter{
@@ -322,9 +306,8 @@ section{
   background-color: var(--bg-hi-color);
   background-size: cover;
   background-position: center;
-  max-width: 100%;
-  max-height:100%;
-  height:initial;
+  height:100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,21 +356,11 @@ section{
 .projectThumb img{
   height:initial;
 }
-/*
-.projectThumb:hover{
-  -webkit-filter:grayscale(100%);
-  filter:grayscale(100%);
-}*/
 footer{
   clear: both;
   padding: 3.2rem 0 0 0;
   text-align: center;
 }
-/*
-#idBlock{
-  min-width: 40vh;
-  max-width: 50vw;
-}*/
 #socList{
   font-size: 1.6rem;
   font-family: impact, sans-serif;/* ie */
@@ -421,13 +394,7 @@ footer{
     background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSgBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/ANb4mLpWmeIpJtUljaB0KRw+Vuk3YB3fQZOBwCTyfTjwOX1KsZumtE972O/EY2EHBVN7bfej5s+K09vc+Or+azlM1u8VuVc9T+4jzn3zmuilSdKPI91/mclap7SbkQ+IfH3iXxFdG51jURcTnq32eJO2P4VFdNGtOhFwpuybuYzgqklKW60OcuJ5LiZpZm3SHGTjHQYrNu+rKP8A/9k=');
     background-size: cover;
     background-position: right;
-    /*-webkit-filter:grayscale(100%);
-    filter:grayscale(100%);
-  }
-  #profilePicture:hover{
-    -webkit-filter:none;
-    filter:none;*/
-  }
+ }
   #socSpace{
     display: block;
     height:var(--triangle);
@@ -440,3 +407,5 @@ footer{
     background-color: var(--bg-color);
   }
 }
+
+    </style>
