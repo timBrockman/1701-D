@@ -24,7 +24,7 @@ I get distracted, have new ideas, then make longer lists.
       - [x] amp development=1 checklist
     - [ ] liquid templates
       - [ ] build process
-      - [ ] compontentish snippet/partial breakdown vs 7-1
+      - [x] compontentish snippet/partial breakdown vs 7-1
     - [ ] create other page types (cv/profile, content page)
       - [ ] cv/about content
       - [ ] single type (display single content chunk like an article)
