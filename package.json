@@ -17,7 +17,9 @@
     "gulp-marked": "^1.0.0",
     "gulp-wrap": "^0.13.0",
     "mocha": "^3.2.0",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "through2": "^2.0.3",
+    "tinyliquid": "^0.2.34"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
