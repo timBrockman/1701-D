@@ -11,7 +11,7 @@
   - deploy: `npm deploy`  git subtree push --prefix dist origin master
 
 ## todo:
-I get distracted, have new ideas, then make longer lists.
+Moved to projects I get distracted, have new ideas, then make longer lists.
 
 ### current/queued:
 
