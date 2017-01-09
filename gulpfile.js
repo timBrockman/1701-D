@@ -40,4 +40,12 @@ function logPath(label = 'file path: '){
       cb(null, file);
     });
 }
+//
+// adds the page's url to each tag and category property of the site object
+function addUrl(siteObj, extension = 'none'){
+  
+  return through.obj((file,enc,cb)=>{
+    file.path;
+  });
+}
 gulp.task('default', ()=>{});

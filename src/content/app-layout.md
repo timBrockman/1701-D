@@ -1,6 +1,10 @@
 ---
 category: projects
-tags: Polymer, Progressive Web Apps, Open Source, Front End Development 
+tags: 
+  - Polymer
+  - Progressive Web Apps
+  - Open Source
+  - Front End Development 
 title: "Polymer Elements - App Layout"
 subtitle: "Contributions: May 2016"
 imagePrefix: "app-layout"

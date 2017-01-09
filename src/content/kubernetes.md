@@ -1,6 +1,9 @@
 ---
 category: projects
-tags: Kubernetes, Docker, Open Source 
+tags: 
+  - Kubernetes
+  - Docker
+  - Open Source 
 title: "Kubernetes (k8s.io)"
 subtitle: "Contributions: May - June 2016"
 imagePrefix: "k8s"

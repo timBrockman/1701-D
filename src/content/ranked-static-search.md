@@ -1,6 +1,10 @@
 ---
 category: projects
-tags: JavaScript, 'node.js', 'tf-idf', 'ranked search' 
+tags: 
+  - JavaScript
+  - node.js
+  - tf-idf
+  - ranked search
 title: "Ranked Static Search (node.js)"
 subtitle: "Created: May 2015"
 imagePrefix: "static-search"

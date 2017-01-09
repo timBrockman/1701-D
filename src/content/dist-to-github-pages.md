@@ -1,7 +1,11 @@
 ---
 draft: false
 category: articles
-tags: quick tips, Git, Github, Github Pages
+tags: 
+  - quick tips
+  - Git
+  - Github
+  - Github Pages
 title: "./dist to Github Pages"
 subtitle: "subtree pushing a build to gh-pages"
 imagePrefix: "app-layout"

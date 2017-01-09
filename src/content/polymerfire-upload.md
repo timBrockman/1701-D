@@ -1,6 +1,10 @@
 ---
 category: projects
-tags: Polymer, Firebase, Polymerfire, Web Components 
+tags: 
+  - Polymer
+  - Firebase
+  - Polymerfire
+  - Web Components 
 title: "Polymerfire Image Upload"
 subtitle: "Created: July 2016"
 imagePrefix: "polymerfire-image-upload"
