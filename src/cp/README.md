@@ -36,6 +36,7 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
   - [ ] starter content
   - [ ] remove build files from master
   - [x] create deploy process to subtree push build branch dist/ to master
+  - [x] build: category and tag cataloging
  
 ### backlog:
 

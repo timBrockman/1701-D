@@ -28,24 +28,43 @@ gulp.task('clean-dist', ()=>{
 gulp.task('catalog', ()=>{
   return gulp.src('./src/content/*.md')
     .pipe(frontMatter({property:'page', remove:false}))
-    .pipe(logPath());
+    .pipe(addUrl(site))
+    .pipe(logPath('foo'));
 });
 
 //helpers
 function logPath(label = 'file path: '){
     return through.obj((file, enc, cb)=>{
-      console.log(file.page);
+      //console.log(file.page);
       console.log(label, file.path);
-      console.log(file.contents.toString())
+      //console.log(file.contents.toString());
+      //console.log(site.tags);
       cb(null, file);
     });
 }
 //
 // adds the page's url to each tag and category property of the site object
-function addUrl(siteObj, extension = 'none'){
+function addUrl(siteObj, extension = ''){
   
-  return through.obj((file,enc,cb)=>{
-    file.path;
+  return through.obj((file, enc, cb)=>{
+    var pageUrl = file.path.match(/([a-zA-Z0-9_-]+)\.md/)[1];
+    pageUrl = pageUrl + extension;
+    //refactor the following at some point
+    siteObj.tags = siteObj.hasOwnProperty('tags')?siteObj.tags:{};
+    if(file.page.hasOwnProperty('tags')){
+      file.page.tags.forEach((tag)=>{
+        siteObj.tags[tag] = siteObj.tags.hasOwnProperty(tag)?siteObj.tags[tag]:[];
+        siteObj.tags[tag].push(pageUrl);
+      });
+    }
+    siteObj.categories = siteObj.hasOwnProperty('categories')?siteObj.categories:{};
+    if(file.page.hasOwnProperty('categories')){
+      file.page.categories.forEach((category)=>{
+        siteObj.categories[category] = siteObj.categories.hasOwnProperty(category)?siteObj.categories[category]:[];
+        siteObj.categories[category].push(pageUrl);
+      });
+    }
+    cb(null, file);
   });
 }
 gulp.task('default', ()=>{});

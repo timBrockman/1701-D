@@ -1,6 +1,7 @@
 ---
 draft: false
-category: articles
+categories: 
+  - articles
 tags: 
   - trial and error
   - analytics

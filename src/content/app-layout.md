@@ -1,5 +1,6 @@
 ---
-category: projects
+categories: 
+  - projects
 tags: 
   - Polymer
   - Progressive Web Apps

@@ -1,5 +1,6 @@
 ---
-category: root
+categories: 
+  - root
 title: "Professional Profile"
 subtitle: "A brief overview of the direction of my work"
 imagePrefix: "static-search"
