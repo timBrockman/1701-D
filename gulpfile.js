@@ -19,6 +19,14 @@ const frontMatter = require('gulp-front-matter'),
 var site = require('./src/content/site.json');
   site.time = new Date();
 
+//
+//start tasks
+//
+// default
+gulp.task('default', (cb)=>{
+  runSequence('clean-dist', 'grind-md', cb);
+});
+
 // clean dist
 gulp.task('clean-dist', ()=>{
   return gulp.src('./dist/')
@@ -46,9 +54,6 @@ gulp.task('grind-md', ['catalog'], ()=>{
     .pipe(logPath())
     .pipe(gulp.dest('dist/'));
 });
-
-// default
-gulp.task('default', ()=>{});
 
 //helpers
 function logPath(label = 'file path: '){
