@@ -15,6 +15,7 @@ const frontMatter = require('gulp-front-matter'),
   marked = require('gulp-marked'),
   wrap = require('gulp-wrap');
 
+// site data global
 var site = require('./src/content/site.json');
   site.time = new Date();
 
@@ -28,9 +29,26 @@ gulp.task('clean-dist', ()=>{
 gulp.task('catalog', ()=>{
   return gulp.src('./src/content/*.md')
     .pipe(frontMatter({property:'page', remove:false}))
-    .pipe(addUrl(site))
-    .pipe(logPath('foo'));
+    .pipe(addUrl(site));
 });
+
+// grinds md into templates
+gulp.task('grind-md', ['catalog'], ()=>{
+  return gulp.src('./src/content/*.md')
+    .pipe(frontMatter({property:'page', remove:true}))//works with gulp-data
+    .pipe(marked())
+    .pipe(logPath())
+    .pipe(attachSiteData())
+    .pipe(wrap((gulpData)=>{ //data gulp-data
+      return fs.readFileSync('./src/templates/' + (!gulpData.file.page.template?'default.liquid':gulpData.file.page.template)).toString()
+    }, null, {engine: 'liquid'}))
+    .on('error',(err)=>{console.log(err)})
+    .pipe(logPath())
+    .pipe(gulp.dest('dist/'));
+});
+
+// default
+gulp.task('default', ()=>{});
 
 //helpers
 function logPath(label = 'file path: '){
@@ -67,4 +85,10 @@ function addUrl(siteObj, extension = ''){
     cb(null, file);
   });
 }
-gulp.task('default', ()=>{});
+// used for liquid to access site data
+function attachSiteData(){
+    return through.obj((file, enc, cb)=>{
+        file.site = site;
+        cb(null,file);
+    });
+}
