@@ -55,6 +55,11 @@ gulp.task('grind-md', ['catalog'], ()=>{
     .pipe(gulp.dest('dist/'));
 });
 
+// create lists (index) pages
+gulp.task('create-lists',['grind-md'],()=>{
+  console.log(site);
+});
+
 //helpers
 function logPath(label = 'file path: '){
     return through.obj((file, enc, cb)=>{
@@ -66,12 +71,17 @@ function logPath(label = 'file path: '){
     });
 }
 //
-// adds the page's url to each tag and category property of the site object
+// adds an array for each tag and category to the site object
+// adds the page's url to each tag and category property
+// attaches meta-data for each page to site object
+//
+
 function addUrl(siteObj, extension = ''){
   
   return through.obj((file, enc, cb)=>{
     var pageUrl = file.path.match(/([a-zA-Z0-9_-]+)\.md/)[1];
     pageUrl = pageUrl + extension;
+    siteObj[pageUrl] = file.page;
     //refactor the following at some point
     siteObj.tags = siteObj.hasOwnProperty('tags')?siteObj.tags:{};
     if(file.page.hasOwnProperty('tags')){
