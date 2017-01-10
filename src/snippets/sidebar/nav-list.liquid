@@ -7,7 +7,7 @@
 {% endfor %}
 <amp-accordion>
   <section>
-    <a><span class="showmore">+</span><span class="showless">-</span> Projects <span class="showmore">+</span><span class="showless">-</span></a>
+    <header><span class="showmore">+</span><span class="showless">-</span> Projects <span class="showmore">+</span><span class="showless">-</span></header>
     <nav>
       <ul>
 {% for item in file.site.categories.projects %}
@@ -17,7 +17,7 @@
     </nav>
   </section>
   <section>
-    <a><span class="showmore">+</span><span class="showless">-</span> Articles <span class="showmore">+</span><span class="showless">-</span></a>
+    <header><span class="showmore">+</span><span class="showless">-</span> Articles <span class="showmore">+</span><span class="showless">-</span></header>
     <nav>
       <ul>
 {% for item in file.site.categories.articles %}

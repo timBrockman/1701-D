@@ -58,7 +58,9 @@ html {
   text-align: center;
   border-top: solid var(--hi-color) .8rem;
 }
-.navcolumn a {
+.navcolumn a, 
+.navcolumn header{
+  box-sizing:border-box;
   width: 100%;
   color: var(--hi-color);
   padding: .8rem;
@@ -94,6 +96,7 @@ section:not([expanded]) .showless{
 }
 .navcolumn li{
   width: 100%;
+  box-sizing:border-box;
   padding: .8rem;
   font-size: 1.2rem;
   border-bottom: solid var(--hi-color) .4rem;
@@ -446,6 +449,10 @@ footer{
     float: left;
     background-color: var(--bg-color);
   }
+}
+
+.banner{
+  background-image:url('./images/{{file.page.imagePrefix}}-10_placeholder.png');
 }
 
     </style>
