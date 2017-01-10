@@ -33,6 +33,11 @@ gulp.task('clean-dist', ()=>{
   return gulp.src('./dist/')
     .pipe(clean());
 });
+// clean indices
+gulp.task('clean-indices', ()=>{
+  return gulp.src(['./src/categories', './src/tags'])
+    .pipe(clean());
+});
 
 //reverse index for site.tags and site.categories
 gulp.task('catalog', ()=>{
@@ -46,36 +51,32 @@ gulp.task('grind-md', ['catalog'], ()=>{
   return gulp.src('./src/content/*.md')
     .pipe(frontMatter({property:'page', remove:true}))//works with gulp-data
     .pipe(marked())
-    .pipe(logPath())
+    //.pipe(logPath())
     .pipe(attachSiteData())
     .pipe(wrap((gulpData)=>{ //data gulp-data
       return fs.readFileSync('./src/templates/' + (!gulpData.file.page.template?'default.liquid':gulpData.file.page.template)).toString()
     }, null, {engine: 'liquid'}))
     .on('error',(err)=>{console.log(err)})
-    .pipe(logPath())
+    //.pipe(logPath())
     .pipe(gulp.dest('dist/'));
 });
 
 // create lists (index) pages
-gulp.task('create-lists',['grind-md'],()=>{
-  console.log(site);
-// not an array todo:fix
-  for(site.categories.length).forEach((category)=>{
-    var path = './src/content/' + category + '.md';
-    var currentFile = new Vinyl({
-      path : path,
-      contents : new Buffer('')
-    });
-    currentFile.pipe(wrap(
-      (site)=>{
-        fs.readFileSync('./src/templates/list.liquid');
-      }, 
-      site, 
-      {engine:'liquid'}))
-    .pipe(gulp.dest('dist/'));
-    console.log(category);
-  });
-  
+gulp.task('create-list-files',['grind-md', 'clean-indices'],()=>{
+  //console.log(site);
+  createFiles();
+  createFiles('tags');
+  return null;
+});
+
+// grind lists
+gulp.task('grind-lists', ['create-list-files'],()=>{
+  return gulp.src(['./src/tags/*.html', './src/categories/*.html'])
+    .pipe(attachSiteData())
+    .pipe(wrap((gulpData)=>{ //data gulp-data
+      return fs.readFileSync('./src/templates/list.liquid').toString()
+    }, null, {engine: 'liquid'}))
+    .pipe(gulp.dest('./dist/ls/'));
 });
 
 //helpers
@@ -88,6 +89,19 @@ function logPath(label = 'file path: '){
       cb(null, file);
     });
 }
+
+function createFiles(type = 'categories', cb = ()=>{return true;}){
+  var dir = './src/' + type
+  if(!fs.existsSync(dir)){
+    fs.mkdirSync(dir);
+  }  
+  for(var item in site[type]){
+    var path = dir + '/' + item.replace(/\W+/g, '-') + '.html';
+    fs.openSync(path, 'w');
+  }
+  cb();
+}
+
 //
 // adds an array for each tag and category to the site object
 // adds the page's url to each tag and category property
