@@ -8,7 +8,8 @@ const gulp = require('gulp'),
   fs = require('fs'),
   childProcess = require('child_process'),
   runSequence = require('run-sequence'),
-  through = require('through2');
+  through = require('through2'),
+  Vinyl = require('vinyl');
 
 //templating requires
 const frontMatter = require('gulp-front-matter'),
@@ -58,6 +59,23 @@ gulp.task('grind-md', ['catalog'], ()=>{
 // create lists (index) pages
 gulp.task('create-lists',['grind-md'],()=>{
   console.log(site);
+// not an array todo:fix
+  for(site.categories.length).forEach((category)=>{
+    var path = './src/content/' + category + '.md';
+    var currentFile = new Vinyl({
+      path : path,
+      contents : new Buffer('')
+    });
+    currentFile.pipe(wrap(
+      (site)=>{
+        fs.readFileSync('./src/templates/list.liquid');
+      }, 
+      site, 
+      {engine:'liquid'}))
+    .pipe(gulp.dest('dist/'));
+    console.log(category);
+  });
+  
 });
 
 //helpers
