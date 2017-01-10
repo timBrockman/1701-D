@@ -23,17 +23,20 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
       - [x] css -> style amp-custom
       - [x] amp development=1 checklist
     - [ ] liquid templates
-      - [ ] build process
+      - [ ] single template
+      - [ ] list template
+      - [ ] profile template
+      - [x] build process
       - [x] compontentish snippet/partial breakdown vs 7-1
     - [ ] create other page types (cv/profile, content page)
       - [ ] cv/about content
-      - [ ] single type (display single content chunk like an article)
+      - [x] single type (display single content chunk like an article)
       - [x] profile (about page specific to author details or cv/resume)
   - [x] start separate src/build branch
   - [x] svg logo
   - [x] sidebar and burger style
   - [x] favicons and other icons
-  - [ ] starter content
+  - [x] starter content
   - [ ] remove build files from master
   - [x] create deploy process to subtree push build branch dist/ to master
   - [x] build: category and tag cataloging
