@@ -73,6 +73,7 @@ gulp.task('create-list-files',['grind-md', 'clean-indices'],()=>{
 gulp.task('grind-lists', ['create-list-files'],()=>{
   return gulp.src(['./src/tags/*.html', './src/categories/*.html'])
     .pipe(attachSiteData())
+    .pipe(logPath())
     .pipe(wrap((gulpData)=>{ //data gulp-data
       return fs.readFileSync('./src/templates/list.liquid').toString()
     }, null, {engine: 'liquid'}))
@@ -85,7 +86,7 @@ function logPath(label = 'file path: '){
       //console.log(file.page);
       console.log(label, file.path);
       //console.log(file.contents.toString());
-      //console.log(site.tags);
+      console.log(site.tags);
       cb(null, file);
     });
 }
@@ -114,10 +115,18 @@ function addUrl(siteObj, extension = ''){
     var pageUrl = file.path.match(/([a-zA-Z0-9_-]+)\.md/)[1];
     pageUrl = pageUrl + extension;
     siteObj[pageUrl] = file.page;
+    //
+    siteObj.lookup = siteObj.hasOwnProperty('lookup')?siteObj.lookup:{};
+    siteObj.lookup.tags = siteObj.lookup.hasOwnProperty('tags')?siteObj.lookup.tags:[];
+    siteObj.lookup.categories = siteObj.lookup.hasOwnProperty('categories')?siteObj.lookup.categories:[];
+    
     //refactor the following at some point
     siteObj.tags = siteObj.hasOwnProperty('tags')?siteObj.tags:{};
     if(file.page.hasOwnProperty('tags')){
       file.page.tags.forEach((tag)=>{
+        if(siteObj.lookup.tags.indexOf(tag) <= -1){
+          siteObj.lookup.tags.push(tag);
+        }
         siteObj.tags[tag] = siteObj.tags.hasOwnProperty(tag)?siteObj.tags[tag]:[];
         siteObj.tags[tag].push(pageUrl);
       });
@@ -125,6 +134,9 @@ function addUrl(siteObj, extension = ''){
     siteObj.categories = siteObj.hasOwnProperty('categories')?siteObj.categories:{};
     if(file.page.hasOwnProperty('categories')){
       file.page.categories.forEach((category)=>{
+        if(siteObj.lookup.categories.indexOf(category) <= -1){
+          siteObj.lookup.categories.push(category);
+        }
         siteObj.categories[category] = siteObj.categories.hasOwnProperty(category)?siteObj.categories[category]:[];
         siteObj.categories[category].push(pageUrl);
       });

@@ -1,0 +1,25 @@
+{% for item in file.site.categories.root %}
+  {% if item == 'index' %}
+    <a href="{{item | replace: /\W+/g, '-'}}.html">Profile</a>
+  {% else %}
+    <a href="{{item | replace: /\W+/g, '-'}}.html">{{item}}</a>
+  {% endif %}
+{% endfor %}
+<amp-accordion>
+  <section  class="navcolumn">
+    <h4>Projects</h4>
+    <nav>
+    {% for item in file.site.categories.projects %}
+      <a href="{{item | replace: /\W+/g, '-'}}.html">{{item}}</a>
+    {% endfor %}
+    </nav>
+  </section>
+  <section class="navcolumn">
+    <h4>Categories<h4>
+    <nav>
+    {% for item in file.site.categories.articles %}
+      <a href="{{item | replace: /\W+/g, '-' | downcase }}.html">{{item}}</a>
+    {% endfor %}
+    </nav>
+  </section>
+</amp-accordion>

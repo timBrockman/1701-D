@@ -1,5 +1,5 @@
 ---
-template: profile.liquid
+template: default.liquid
 categories: 
   - root
 title: "Professional Profile"

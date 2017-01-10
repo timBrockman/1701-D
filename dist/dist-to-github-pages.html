@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 <!-- end initial amp stuff and includes -->
 
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
@@ -100,13 +100,21 @@ html {
   background-color: var(--bg-hi-color);
   color: var(--hi-color);
 }
-.navcolumn{
+.navwrap{
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   border-top:solid var(--hi-color) .8rem;
+}
+.navcolumn{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .navcolumn a {
   width: 100%;
@@ -117,6 +125,24 @@ html {
   border-bottom: solid var(--hi-color) .8rem;
   text-transform: uppercase;
 }
+section.navcolumn h4 {
+  width: 100%;
+  color: var(--hi-color);
+  padding: .8rem;
+  font-size: 1.6rem;
+  border-bottom: solid var(--hi-color) .8rem;
+  text-transform: uppercase;
+}
+section.navcolumn a {
+  width: 100%;
+  color: var(--hi-color);
+  padding: .4rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: solid var(--hi-color) .4rem;
+  text-transform: uppercase;
+}
+
 #logoWrap{
   transform: scale(.64);
 }
@@ -470,10 +496,28 @@ footer{
         </svg>
       </div>
       <nav class="navcolumn">
-        <a href="index.html">profile</a>
+        <!--a href="index.html">profile</a>
         <a href="articles.html">articles</a>
-        <a href="projects.html">projects</a>
-      </nav>
+        <a href="projects.html">projects</a-->
+      <a href="index.html">Profile</a>
+<amp-accordion>
+  <section  class="navcolumn">
+    <h4>Projects</h4>
+    <nav>
+      <a href="app-layout.html">app-layout</a>
+      <a href="kubernetes.html">kubernetes</a>
+      <a href="polymerfire-upload.html">polymerfire-upload</a>
+      <a href="ranked-static-search.html">ranked-static-search</a>
+    </nav>
+  </section>
+  <section class="navcolumn">
+    <h4>Categories<h4>
+    <nav>
+      <a href="amp-analytics.html">amp-analytics</a>
+      <a href="dist-to-github-pages.html">dist-to-github-pages</a>
+    </nav>
+  </section>
+</amp-accordion>      </nav>
     </amp-sidebar>
     <header id="idHeader">
 			<div id="idBlock">
