@@ -100,14 +100,6 @@ html {
   background-color: var(--bg-hi-color);
   color: var(--hi-color);
 }
-.navwrap{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-top:solid var(--hi-color) .8rem;
-}
 .navcolumn{
   display:flex;
   width:100%;
@@ -115,6 +107,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border-top: solid var(--hi-color) .8rem;
 }
 .navcolumn a {
   width: 100%;
@@ -122,27 +115,48 @@ html {
   padding: .8rem;
   font-size: 1.6rem;
   text-decoration: none;
+  border:0;
   border-bottom: solid var(--hi-color) .8rem;
   text-transform: uppercase;
+  background-color: var(--bg-hi-color);
 }
-section.navcolumn h4 {
+.navcolumn amp-accordion{
+  width:100%;
+}
+section[expanded] .showmore{
+  display:none;
+} 
+section:not([expanded]) .showless{
+  display:none;
+} 
+.navcolumn nav{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navcolumn ul{
+  padding-left:0;
+  margin:0;
+  list-style:none;
+  border-bottom: solid var(--hi-color) .4rem;
+}
+.navcolumn li{
   width: 100%;
+  padding: .8rem;
+  font-size: 1.2rem;
+  border-bottom: solid var(--hi-color) .4rem;
+  background-color: var(--bg-hi-color);
+}
+.navcolumn li a{
   color: var(--hi-color);
   padding: .8rem;
-  font-size: 1.6rem;
-  border-bottom: solid var(--hi-color) .8rem;
-  text-transform: uppercase;
-}
-section.navcolumn a {
-  width: 100%;
-  color: var(--hi-color);
-  padding: .4rem;
   font-size: 1.2rem;
   text-decoration: none;
-  border-bottom: solid var(--hi-color) .4rem;
   text-transform: uppercase;
 }
-
 #logoWrap{
   transform: scale(.64);
 }
@@ -355,7 +369,7 @@ p.pad{
 #idHeader p{
   padding: 0px .8rem;
 }
-section{
+.content{
   box-sizing: border-box;
   max-width: 100vw;
   border: solid var(--bg-hi-color) .4rem;
@@ -501,20 +515,24 @@ footer{
         <a href="projects.html">projects</a-->
       <a href="index.html">Profile</a>
 <amp-accordion>
-  <section  class="navcolumn">
-    <h4>Projects</h4>
+  <section>
+    <a><span class="showmore">+</span><span class="showless">-</span> Projects <span class="showmore">+</span><span class="showless">-</span></a>
     <nav>
-      <a href="app-layout.html">app-layout</a>
-      <a href="kubernetes.html">kubernetes</a>
-      <a href="polymerfire-upload.html">polymerfire-upload</a>
-      <a href="ranked-static-search.html">ranked-static-search</a>
+      <ul>
+        <li><a href="app-layout.html">app-layout</a></li>
+        <li><a href="kubernetes.html">kubernetes</a></li>
+        <li><a href="polymerfire-upload.html">polymerfire-upload</a></li>
+        <li><a href="ranked-static-search.html">ranked-static-search</a></li>
+      </ul>
     </nav>
   </section>
-  <section class="navcolumn">
-    <h4>Categories<h4>
+  <section>
+    <a><span class="showmore">+</span><span class="showless">-</span> Articles <span class="showmore">+</span><span class="showless">-</span></a>
     <nav>
-      <a href="amp-analytics.html">amp-analytics</a>
-      <a href="dist-to-github-pages.html">dist-to-github-pages</a>
+      <ul>
+        <li><a href="amp-analytics.html">amp-analytics</a></li>
+        <li><a href="dist-to-github-pages.html">dist-to-github-pages</a></li>
+      </ul>
     </nav>
   </section>
 </amp-accordion>      </nav>
@@ -567,7 +585,7 @@ footer{
 
     </header>
 
-		<section>
+		<section class="content">
 			<div class="secHeader">
         <div class="thumbBorder">
     			<amp-img src="images/app-layout-465_project.png" alt="projects on github"
@@ -588,7 +606,7 @@ footer{
 				<a href="https://polymerelements.github.io/app-layout/">App Layout</a>
 			</div>
 		</section>
-		<section>
+		<section class="content">
 			<div class="secHeader">
         <div class="thumbBorder">
     			<amp-img src="images/static-search-465_project.png" alt="Node Static Search on github"
@@ -608,7 +626,7 @@ footer{
 				<a href="https://github.com/timBrockman/ranked-static-search">Ranked Static Search code on Github</a>
 			</div>
 		</section>
-    <section>
+    <section class="content">
       <div class="secHeader">
         <div class="thumbBorder">
           <amp-img src="images/polymerfire-image-upload-465_project.png" alt="PolymerFire image upload"
@@ -631,7 +649,7 @@ footer{
         <a href="https://github.com/timBrockman/firebase-image-upload">Firebase Image Upload code on Github</a>
       </div>
     </section>
-    <section>
+    <section class="content">
 			<div class="secHeader">
         <div class="thumbBorder">
           <amp-img src="images/k8s-465_project.png" alt="Kubernetes (k8s.io)"

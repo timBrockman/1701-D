@@ -6,20 +6,24 @@
   {% endif %}
 {% endfor %}
 <amp-accordion>
-  <section  class="navcolumn">
-    <h4>Projects</h4>
+  <section>
+    <a><span class="showmore">+</span><span class="showless">-</span> Projects <span class="showmore">+</span><span class="showless">-</span></a>
     <nav>
-    {% for item in file.site.categories.projects %}
-      <a href="{{item | replace: /\W+/g, '-'}}.html">{{item}}</a>
-    {% endfor %}
+      <ul>
+{% for item in file.site.categories.projects %}
+        <li><a href="{{item | replace: /\W+/g, '-'}}.html">{{item}}</a></li>
+{% endfor %}
+      </ul>
     </nav>
   </section>
-  <section class="navcolumn">
-    <h4>Categories<h4>
+  <section>
+    <a><span class="showmore">+</span><span class="showless">-</span> Articles <span class="showmore">+</span><span class="showless">-</span></a>
     <nav>
-    {% for item in file.site.categories.articles %}
-      <a href="{{item | replace: /\W+/g, '-' | downcase }}.html">{{item}}</a>
-    {% endfor %}
+      <ul>
+{% for item in file.site.categories.articles %}
+        <li><a href="{{item | replace: /\W+/g, '-' | downcase }}.html">{{item}}</a></li>
+{% endfor %}
+      </ul>
     </nav>
   </section>
 </amp-accordion>

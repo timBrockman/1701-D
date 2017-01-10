@@ -49,14 +49,6 @@ html {
   background-color: var(--bg-hi-color);
   color: var(--hi-color);
 }
-.navwrap{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-top:solid var(--hi-color) .8rem;
-}
 .navcolumn{
   display:flex;
   width:100%;
@@ -64,6 +56,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border-top: solid var(--hi-color) .8rem;
 }
 .navcolumn a {
   width: 100%;
@@ -71,27 +64,48 @@ html {
   padding: .8rem;
   font-size: 1.6rem;
   text-decoration: none;
+  border:0;
   border-bottom: solid var(--hi-color) .8rem;
   text-transform: uppercase;
+  background-color: var(--bg-hi-color);
 }
-section.navcolumn h4 {
+.navcolumn amp-accordion{
+  width:100%;
+}
+section[expanded] .showmore{
+  display:none;
+} 
+section:not([expanded]) .showless{
+  display:none;
+} 
+.navcolumn nav{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navcolumn ul{
+  padding-left:0;
+  margin:0;
+  list-style:none;
+  border-bottom: solid var(--hi-color) .4rem;
+}
+.navcolumn li{
   width: 100%;
+  padding: .8rem;
+  font-size: 1.2rem;
+  border-bottom: solid var(--hi-color) .4rem;
+  background-color: var(--bg-hi-color);
+}
+.navcolumn li a{
   color: var(--hi-color);
   padding: .8rem;
-  font-size: 1.6rem;
-  border-bottom: solid var(--hi-color) .8rem;
-  text-transform: uppercase;
-}
-section.navcolumn a {
-  width: 100%;
-  color: var(--hi-color);
-  padding: .4rem;
   font-size: 1.2rem;
   text-decoration: none;
-  border-bottom: solid var(--hi-color) .4rem;
   text-transform: uppercase;
 }
-
 #logoWrap{
   transform: scale(.64);
 }
