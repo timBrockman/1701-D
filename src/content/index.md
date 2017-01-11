@@ -4,7 +4,7 @@ categories:
   - root
 title: "Professional Profile"
 subtitle: "A brief overview of the direction of my work"
-imagePrefix: "static-search"
+imagePrefix: "projects"
 imageAlt: "Professional Profile"
 stub: "A brief overview of the direction of my work"
 ---

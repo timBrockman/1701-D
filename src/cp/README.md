@@ -44,6 +44,7 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
     - [ ] header
     - [x] meta
     - [x] sidebar
+  - [ ] rework cataloging as arrays for buggy k-v access
 
 ### backlog:
 
