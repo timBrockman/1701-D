@@ -53,6 +53,7 @@ gulp.task('grind-md', ['catalog'], ()=>{
     .pipe(marked())
     //.pipe(logPath())
     .pipe(attachSiteData())
+    .pipe(addPermalink())
     .pipe(wrap((gulpData)=>{ //data gulp-data
       return fs.readFileSync('./src/templates/' + (!gulpData.file.page.template?'default.liquid':gulpData.file.page.template)).toString()
     }, null, {engine: 'liquid'}))
@@ -105,8 +106,9 @@ function createFiles(type = 'categories', cb = ()=>{return true;}){
 //add permalink if none exists
 function addPermalink(extension = ''){
   return through.obj((file, enc, cb)=>{
+    //console.log(file.path);
     if (!file.page.hasOwnProperty('permalink')){
-      file.page.permalink = file.path.match(/([a-zA-Z0-9_-]+)\.md/)[1] + extension;
+      file.page.permalink = file.path.match(/([a-zA-Z0-9_-]+)\.html/)[1] + extension;
     }
     cb(null, file);
   });
