@@ -1,0 +1,26 @@
+    <header id="idHeader">
+			<div id="idBlock">
+				<div id="profilePicture">
+          <amp-img src="images/{{file.site.id.imagePrefix}}-310_profile.{{file.site.id.imageExtension}}" alt="{{file.site.id.imageAlt}}"
+            srcset="images/{{file.site.id.imagePrefix}}-310_profile.{{file.site.id.imageExtension}} 1024w, images/{{file.site.id.imagePrefix}}-236_profile.{{file.site.id.imageExtension}} 768w, images/{{file.site.id.imagePrefix}}-160_profile.{{file.site.id.imageExtension}} 320w"
+            width="160"
+            height="160"
+            layout="responsive"></amp-img>
+				</div>
+				<div>
+          <h5 class="pad pointer" on="tap:sidebar.toggle" role="switch" tabindex="default">&equiv;
+          </h5>
+					<h1 class="lowCeiling pad right">{{file.site.id.title}}</h1>
+					<h6 class="pad">{{file.site.id.subtitle}}</h6>
+				</div>
+			</div>
+			<div id="socList">
+				<div id="socSpace"></div>
+				<h1>@</h1>
+				<p>
+{% for link in file.site.id.social %}
+					<a href="{{link.0}}" target="_blank">{{link.1}}</a><br>
+{% endfor %}
+				</p>
+			</div>
+		</header>

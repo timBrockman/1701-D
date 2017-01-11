@@ -1,3 +1,18 @@
 {
   "title":"Tim Brockman",
-  "url":"https://timbrockman.com"}
+  "url":"https://timbrockman.com",
+  "id":{
+    "title":"Timothy<br>Brockman",
+    "subtitle":"IT Manager / Code Contributor",
+    "imagePrefix":"tim-sq",
+    "imageExtension":"jpg",
+    "imageAlt":"profile picture of Tim Brockman",
+    "social":[
+      ["tel:14076027721", "tel: 1 407 602 7721"],
+      ["mailto:Tim@TimBrockman.com", "Tim@TimBrockman.com"],
+      ["https://github.com/timBrockman", "github.com/timBrockman"],
+      ["https://Meetup.com/members/805108/", "Meetup.com/members/805108/"],
+      ["https://LinkedIn.com/in/timbrockman", "LinkedIn.com/in/timbrockman"]
+    ]
+  }
+}
