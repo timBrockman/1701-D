@@ -22,8 +22,8 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
       - [x] amp images
       - [x] css -> style amp-custom
       - [x] amp development=1 checklist
-    - [ ] liquid templates
-      - [ ] single template
+    - [x] liquid templates
+      - [x] single template
       - [x] build process
       - [x] compontentish snippet/partial breakdown vs 7-1
     - [ ] create other page types (cv/profile, content page)
@@ -39,12 +39,14 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
   - [x] create deploy process to subtree push build branch dist/ to master
   - [x] build: category and tag cataloging
   - [ ] liquid templates/snippets
-    - [ ] body
+    - [x] body
     - [ ] footer
-    - [ ] header
+    - [x] header
     - [x] meta
     - [x] sidebar
   - [ ] rework cataloging as arrays for buggy k-v access
+  - [ ] rework content styling
+  - [ ] proofread/revise starter content
 
 ### backlog:
 
