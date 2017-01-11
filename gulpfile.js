@@ -73,7 +73,7 @@ gulp.task('create-list-files',['grind-md', 'clean-indices'],()=>{
 gulp.task('grind-lists', ['create-list-files'],()=>{
   return gulp.src(['./src/tags/*.html', './src/categories/*.html'])
     .pipe(attachSiteData())
-    .pipe(logPath())
+    //.pipe(logPath())
     .pipe(wrap((gulpData)=>{ //data gulp-data
       return fs.readFileSync('./src/templates/list.liquid').toString()
     }, null, {engine: 'liquid'}))
@@ -102,7 +102,15 @@ function createFiles(type = 'categories', cb = ()=>{return true;}){
   }
   cb();
 }
-
+//add permalink if none exists
+function addPermalink(extension = ''){
+  return through.obj((file, enc, cb)=>{
+    if (!file.page.hasOwnProperty('permalink')){
+      file.page.permalink = file.path.match(/([a-zA-Z0-9_-]+)\.md/)[1] + extension;
+    }
+    cb(null, file);
+  });
+}
 //
 // adds an array for each tag and category to the site object
 // adds the page's url to each tag and category property
