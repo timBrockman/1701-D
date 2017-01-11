@@ -42,8 +42,8 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
     - [ ] body
     - [ ] footer
     - [ ] header
-    - [ ] meta
-    - [ ] sidebar
+    - [x] meta
+    - [x] sidebar
 
 ### backlog:
 
