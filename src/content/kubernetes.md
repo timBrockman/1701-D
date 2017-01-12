@@ -10,6 +10,8 @@ subtitle: "Contributions: May - June 2016"
 imagePrefix: "k8s"
 imageAlt: "Kubernetes (k8s.io)"
 stub: "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications."
+footerLink: "https://k8s.io"
+footerText: "Kubernetes (k8s.io)"
 ---
 
 Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.

@@ -11,6 +11,8 @@ subtitle: "Contributions: May 2016"
 imagePrefix: "app-layout"
 imageAlt: "Polymer Elements - App Layout"
 stub: "App Layout is a collection of Polymer elements, along with guidelines and templates that can be used to structure your app’s layout. It's used by most Polymer progressive web apps."
+footerLink: "https://github.com/PolymerElements/app-layout"
+footerText: "App Layout on Github"
 ---
 
 App Layout is a collection of Polymer elements, along with guidelines and templates that can be used to structure your app’s layout. It's used by most Polymer progressive web apps.

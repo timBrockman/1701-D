@@ -1,17 +1,34 @@
 # [Timbrockman.com || timBrockman.github.io](https://timbrockman.com)
 
-## Current Iteration
-  This personal page is designed to take as little development time as possible. It uses no frameworks or libraries, just plain ol' html and css with a little optimization at build time.
+## Iterations
 
-  From the start keeping things simple enough to stay AMP Project compliant has been in the back of my head. The idea will be to ramp into a progressive (likely Polymer) experience from AMP cached content + service worker + use the cached content as the data store to fetch from.
+### Current iteration
 
-## how tos
+
+
+### Last iteration
+
+  A personal page is designed to take as little development time as possible. It uses no frameworks or libraries, just plain ol' html and css with a little optimization at build time.
+
+### Future iterations
+
+As I get things to work I'll let you know.
+
+  - Clean up the build and ditch tinyliquid for almost anything
+  - Add some nice AMP Components
+  - From the start keeping things simple enough to stay AMP Project compliant has been in the back of my head.
+  - The idea will be to ramp into a progressive (likely Polymer) experience from AMP cached content + service worker + use the cached content as the data store to fetch from.
+  - I would also like to rig travis to actually build and deploy new commits. Create a draft branch for content, then as it is merged to the build branch travis runs, clones master in a fresh directory, then copies from build/dist to new master, then pushes new master.
+  - The PWA app template will stay generaly untouched once developed.
   
-  - build: `npm build` runs grunt build process
-  - deploy: `npm deploy`  git subtree push --prefix dist origin master
-
 ## todo:
 Moved to projects I get distracted, have new ideas, then make longer lists.
+
+### ongoing
+
+  - recheck a11y and 508
+  - recheck actual live cross-browser and device results before release
+  - Build some simple generators after the iterations reach release points.
 
 ### current/queued:
 
@@ -44,9 +61,10 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
     - [x] header
     - [x] meta
     - [x] sidebar
-  - [ ] rework cataloging as arrays for buggy k-v access
+  - [ ] -rework cataloging as arrays for buggy k-v access-
   - [ ] rework content styling
   - [ ] proofread/revise starter content
+  - [ ] refactor to nunjucks from tinyliquid (k-v access to annoying)
 
 ### backlog:
 

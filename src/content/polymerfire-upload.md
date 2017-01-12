@@ -11,6 +11,8 @@ subtitle: "Created: July 2016"
 imagePrefix: "polymerfire-image-upload"
 imageAlt: "Polymerfire Image Upload"
 stub: "Firebase Image Upload is a simple Polymer element using PolymerFire to upload images (or files) to Firebase Storage."
+footerLink: "https://github.com/timBrockman/firebase-image-upload"
+footerText: "Polymerfire image upload component on Github"
 ---
 
 Firebase Image Upload is a simple Polymer element using PolymerFire to upload images (or files) to Firebase Storage. This is a stripped down image uploader similar to the one in The Firecast Tutorial: Getting Started with Storage on the Web. The only major difference is it was created as a Polymer element.
