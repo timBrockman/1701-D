@@ -8,7 +8,7 @@
 
 ### Last iteration
 
-  A personal page is designed to take as little development time as possible. It uses no frameworks or libraries, just plain ol' html and css with a little optimization at build time.
+A personal page is designed to take as little development time as possible. It uses no frameworks or libraries, just plain ol' html and css with a little optimization at build time.
 
 ### Future iterations
 
@@ -30,7 +30,7 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
   - recheck actual live cross-browser and device results before release
   - Build some simple generators after the iterations reach release points.
 
-### current/queued:
+### current/queued before release:
 
   - [ ] templating, pages, & layouts
     - [x] amp this (ampproject.org)
@@ -45,26 +45,39 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
       - [x] compontentish snippet/partial breakdown vs 7-1
     - [ ] create other page types (cv/profile, content page)
       - [ ] cv/about content
+      - [ ] articles
+        - [ ] gh-pages
+        - [ ] amp analytics
+        - [ ] amp tldr
+        - [ ] web-workers
+      - [x] projects
+        - [x] app-layout
+        - [x] k8s.io
+        - [x] polymerfire-upload
+        - [x] ranked static search
       - [x] single type (display single content chunk like an article)
       - [x] profile (about page specific to author details or cv/resume)
+    - [ ] liquid templates/snippets
+      - [x] body
+      - [ ] footer
+      - [x] header
+      - [x] meta
+      - [x] sidebar
   - [x] start separate src/build branch
   - [x] svg logo
   - [x] sidebar and burger style
   - [x] favicons and other icons
   - [x] starter content
   - [ ] remove build files from master
-  - [x] create deploy process to subtree push build branch dist/ to master
+  - [ ] create deploy process to subtree push build branch dist/ to master
   - [x] build: category and tag cataloging
-  - [ ] liquid templates/snippets
-    - [x] body
-    - [ ] footer
-    - [x] header
-    - [x] meta
-    - [x] sidebar
-  - [ ] -rework cataloging as arrays for buggy k-v access-
   - [ ] rework content styling
   - [ ] proofread/revise starter content
+    - [ ] index/profile
+    - [ ] projects
+    - [ ] articles
   - [ ] refactor to nunjucks from tinyliquid (k-v access to annoying)
+  - [ ] gulp image build
 
 ### backlog:
 
