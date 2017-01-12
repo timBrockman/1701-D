@@ -14,5 +14,15 @@
       ["https://Meetup.com/members/805108/", "Meetup.com/members/805108/"],
       ["https://LinkedIn.com/in/timbrockman", "LinkedIn.com/in/timbrockman"]
     ]
+  },
+  "footer":{
+    "content":"&copy; 2016-2017 Tim Brockman",
+    "links":[
+      ["tel:14076027721", "1-407-602-7721"],
+      ["mailto:Tim@TimBrockman.com", "Tim@TimBrockman.com"],
+      ["https://github.com/timBrockman", "github.com/timBrockman"],
+      ["https://Meetup.com/members/805108/", "Meetup.com/members/805108/"],
+      ["https://LinkedIn.com/in/timbrockman", "LinkedIn.com/in/timbrockman"]
+    ]
   }
 }

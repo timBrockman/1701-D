@@ -57,9 +57,9 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
         - [x] ranked static search
       - [x] single type (display single content chunk like an article)
       - [x] profile (about page specific to author details or cv/resume)
-    - [ ] liquid templates/snippets
+    - [x] liquid templates/snippets
       - [x] body
-      - [ ] footer
+      - [x] footer
       - [x] header
       - [x] meta
       - [x] sidebar

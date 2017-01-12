@@ -1,3 +1,6 @@
 		<footer>
-    &copy; 2016<a href="https://timbrockman.com"> Tim Brockman</a>
+ {% for item in file.site.footer.links %}
+   |&nbsp;<a href="{{item.0}}">{{item.1}}</a>&nbsp;|&#32;
+ {% endfor %}   
+ <p class="dropout">| {{file.site.footer.content}} | | <a href="https://timbrockman.com">Template design by Tim Brockman</a> |</p>
     </footer>
