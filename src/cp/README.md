@@ -4,7 +4,7 @@
 
 ### Current iteration
 
-
+A completed AMP compliant liquid template that loads quickly and still looks/feels decent with minimal AMP components.
 
 ### Last iteration
 
@@ -14,7 +14,7 @@ A personal page is designed to take as little development time as possible. It u
 
 As I get things to work I'll let you know.
 
-  - Clean up the build and ditch tinyliquid for almost anything
+  - Clean up the build and ditch tinyliquid for pretty much anything (probably hbs or mustache)
   - Add some nice AMP Components
   - From the start keeping things simple enough to stay AMP Project compliant has been in the back of my head.
   - The idea will be to ramp into a progressive (likely Polymer) experience from AMP cached content + service worker + use the cached content as the data store to fetch from.
