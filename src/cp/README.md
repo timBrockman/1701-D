@@ -76,7 +76,7 @@ Moved to projects I get distracted, have new ideas, then make longer lists.
     - [ ] index/profile
     - [ ] projects
     - [ ] articles
-  - [ ] refactor to nunjucks from tinyliquid (k-v access to annoying)
+  - [ ] refactor to handlebars, mustache, or nunjucks from tinyliquid (k-v access to annoying)
   - [ ] gulp image build
 
 ### backlog:

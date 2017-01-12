@@ -13,10 +13,14 @@ footerText: "Developer Resume (pdf)"
 
 ### Professional Engagements
 
-###### Republic First Management & Republic Equity
+###### IT Manager
+_**Republic First Management & Republic Equity** - Winter Park, FL_
+  : Everyone fails from time to time.
+  : When the status quo becomes failure; it takes perserverance to build relationships, champion positive changes, and audit the effectiveness of those changes.
+This job offers me the chance of stepping into faltering businesses; renovating the legacy equipment, policies, culture; and being part of a positive turnaround.
 
-  - fill this with stuff
-  - add some bullet points
+###### Development
+
 
 ### Community Involvement
 
