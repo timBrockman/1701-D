@@ -15,11 +15,15 @@ footerText: "Developer Resume (pdf)"
 
 ###### IT Manager
 _**Republic First Management & Republic Equity** - Winter Park, FL_
-  : Everyone fails from time to time.
-  : When the status quo becomes failure; it takes perserverance to build relationships, champion positive changes, and audit the effectiveness of those changes.
-This job offers me the chance of stepping into faltering businesses; renovating the legacy equipment, policies, culture; and being part of a positive turnaround.
+  
+Everyone fails from time to time.
+When the status quo becomes failure; it takes perserverance to build relationships, champion positive changes, and audit the effectiveness of those changes.
+The chance of stepping into faltering businesses; renovating the legacy equipment, policies, culture; and being part of a positive turnaround is part of what this role offers.
 
-###### Development
+I am currently studying [FitSM](http://fitsm.itemo.org/fitsm-standard) and may write about it at some point.
+
+###### Web Developer
+_**The Open Source Community**_
 
 
 ### Community Involvement

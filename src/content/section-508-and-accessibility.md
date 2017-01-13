@@ -16,4 +16,10 @@ stub: "this is a placeholder"
 footerLink: "https://ampbyexample.com/components/amp-analytics/"
 footerText: "AMP-Analyticts by Example"
 ---
+
+Some things never change. Section 508
+
 this is a placeholder
+https://training.section508.gov/images/aw05110.jpg
+
+https://training.section508.gov/images/34050.jpg
