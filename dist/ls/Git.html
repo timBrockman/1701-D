@@ -278,6 +278,10 @@ a:hover, a:active{
 a:visited{
  text-decoration:line-through;
 }
+hr{
+  margin: 2.4rem 0 0 0;
+  border: solid .4rem var(--bg-hi-color);
+}
 h1, h2, h3, h4, h5, h6, .dropout{
   font-family: impact, sans-serif;/* ie */
   font-family: var(--hs);
@@ -291,6 +295,11 @@ h4, h5, h6, .dropout {
   background-color: var(--base-color);
   padding-left: .8rem;
 }
+.secBody h1,
+.secBody h2,
+.secBody h3{
+  text-align: center;
+}
 p{
   margin: 1rem;
   padding: 0px;/* 0px .8rem 0px;*/
@@ -298,6 +307,9 @@ p{
 }
 p:first-of-type, .noin{
   text-indent: 0;
+}
+section.content p{
+  text-indent:0;
 }
 #idHeader p{
   margin: 0;
