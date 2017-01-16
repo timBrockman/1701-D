@@ -9,12 +9,12 @@ tags:
   - aria
   - "tl;dr"
 title: "Accessibility, 508 Free, tl;dr"
-subtitle: "Free Section 508 certification and a Free a11y tl;dr cheatsheet"
-imagePrefix: "app-layout"
-imageAlt: "Polymer Elements - App Layout"
+subtitle: "Free Section 508 certification and a Free a11y tl;dr checklist"
+imagePrefix: "projects"
+imageAlt: "Free Section 508 certification and a Free a11y tl;dr checklist"
 stub: "this is a placeholder"
-footerLink: "https://ampbyexample.com/components/amp-analytics/"
-footerText: "AMP-Analyticts by Example"
+footerLink: "https://github.com/timBrockman/timBrockman.github.io/blob/master/a11y_checklist.md"
+footerText: "a11y tl;dr checklist"
 ---
 
 Some things never change. Section 508
