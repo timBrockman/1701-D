@@ -17,7 +17,7 @@ footerText: "Developer Resume (pdf)"
 _**For Hire** - Your Project or Organization_
 
 > - Is your company building a disciplined team of software engineers?
-> - Are you embracing a DevOps philosophy, and looking for developers with opperations and support experience?
+> - Are you embracing a DevOps philosophy, and looking for developers with operations and support experience?
 > - Do you value best practices and industry standards enough to have maintain internal style guides?
 >
 >Software development merges creative problem solving with discipled testing and refactoring. 
@@ -27,7 +27,7 @@ _**For Hire** - Your Project or Organization_
 _**The Open Source Community**_
 
 >In spite of programming most of my life, contributing to [great projects along side brilliant engineers](https://github.com/PolymerElements/app-layout/graphs/contributors) has been inaccessible and intimidating. 
->In early 2016, after being prompetd by a Udacity lesson, it was time to get over my trepidation and do my part to support some great projects.
+>In early 2016, after being prompted by a Udacity lesson, it was time to get over my trepidation and do my part to support some great projects.
 >I started browsing GitHub issues on several projects, looking for concrete solvable problems.
 >
 >The first one I found was issue [#404 in the Kubernetes documentation](https://github.com/kubernetes/kubernetes.github.io/issues/404), an issue I knew how to solve.
@@ -39,7 +39,7 @@ _**The Open Source Community**_
 
 ###### IT Manager
 _**Republic First Management & Republic Equity** - (January 2013 - Current) Winter Park, FL_
->It takes perserverance to build relationships, to champion positive changes, and to audit the effectiveness of those changes.
+>It takes perseverance to build relationships, to champion positive changes, and to audit the effectiveness of those changes.
 >My current role provides the chance to assist faltering businesses, renovate the legacy equipment, policies, and culture. 
 >Being part of a positive turnaround is a rare opportunity;
 >this private equity group presented an abundance of such experiences.
@@ -58,13 +58,11 @@ _**For Hire** - Your Project or Organization_
 
 ###### Tech & Dev
 
->Orlando is home to a close knit community of tech and developer groups.
->We help each other vorkthrough stay current industry developments.
->As an Agile Alliance Member, I'm looking forward to Agile2017 in Orlando.
->You can regularly find me attending many local developer and tech meetups including:
+>Orlando is home to a close knit community of tech and developer groups which helps us stay current industry developments.
+>You can regularly find me attending many local developer and tech Meetups including:
 >  - Orlando Devs
 >  - University Tech
->  - Agile Orlando
+>  - Agile Orlando and Agile Alliance Member
 >  - Front End Orlando
 >  - Orlando Golang
 >  - Orlando JavaScript
@@ -73,7 +71,7 @@ _**For Hire** - Your Project or Organization_
 
 >Up until 2010 I devoted several hours a week to my local art community. 
 >It was a chance to enjoy fine art with fine people.
->Durring that time I had the opportunity to serve on the Associates Board at the [Maitland Art Center](http://artandhistory.org/maitland-art-center) (now the Art & History Center).
+>During that time I had the opportunity to serve on the Associates Board at the [Maitland Art Center](http://artandhistory.org/maitland-art-center) (now the Art & History Center).
 
 ---
 
@@ -86,7 +84,7 @@ _**Bachelor of Fine Arts** - Graphic Design_
 ***Other Courses***
 
 ###### Udacity
-_**Nanodegree** Front End Web Development 2016_
+_**NanoDegree** Front End Web Development 2016_
   - ud893- Responsive Web Design Fundamentals
   - ud304- Intro to HTML and CSS
   - ud882- Responsive Images
@@ -101,7 +99,7 @@ _**Nanodegree** Front End Web Development 2016_
   - ud549- JavaScript Testing
 
 ***Additional Certificates***
-  - cs271- Intro to Artificial Intellegence (The original AI-Class)
+  - cs271- Intro to Artificial Intelligence (The original AI-Class)
   - cs101- Intro to Computer Science (The original CS class)
 
 ***Other Courses***
@@ -121,9 +119,9 @@ _**Nanodegree** Front End Web Development 2016_
   - Game Theory (Grade 90.1%)
 
 ***University of Maryland***
-  - Developing Innovative Ideas for New Companies:The First Step in Entrepreneurship
-  - Innovation for Entrepreneurs: From Idea to Marketplace
-  - New Venture Finance: Startup Funding for Entrepreneurs
+  - Developing Innovative Ideas for New Companies:The First Step in Entrepreneurship (Grade 100%)
+  - Innovation for Entrepreneurs: From Idea to Marketplace (Grade 100%)
+  - New Venture Finance: Startup Funding for Entrepreneurs (Grade 95.4%)
 
 ###### Lynda
 
