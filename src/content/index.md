@@ -28,7 +28,7 @@ _**The Open Source Community**_
 
 >In spite of programming most of my life, contributing to [great projects along side brilliant engineers](https://github.com/PolymerElements/app-layout/graphs/contributors) has been inaccessible and intimidating. 
 >In early 2016, after being prompted by a Udacity lesson, it was time to get over my trepidation and do my part to support some great projects.
->I started browsing GitHub issues on several projects, looking for concrete solvable problems.
+>I started browsing GitHub issues on several projects looking for concrete solvable problems.
 >
 >The first one I found was issue [#404 in the Kubernetes documentation](https://github.com/kubernetes/kubernetes.github.io/issues/404), an issue I knew how to solve.
 >Shortly afterward, I found a minor issue with the demo pages of [Polymer Elements App Layout](https://github.com/PolymerElements/app-layout). 
