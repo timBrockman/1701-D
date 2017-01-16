@@ -597,7 +597,22 @@ footer{
     </header>
     <section class="content">
 			<div class="secBody">
-        <p>this is a placeholder</p>
+        <h5 id="tl-dr">TL;DR</h5>
+<p>A good README is important, but it&#39;s better to also have a demo.
+For front-end project&#39;s GitHub Pages (gh-pages) can work well for hosting a demo. 
+To only push your <code>./dist</code> folder to your gh-pages directory, instead of the raw source files
+use:
+&#39;&#39;&#39;
+git subtree push --prefix dist origin gh-pages
+&#39;&#39;&#39;
+or wrapped as an npm command in a package.json
+&#39;&#39;&#39;
+&quot;scripts&quot;: {
+  &quot;deploy&quot;:&quot;git subtree push --prefix dist origin gh-pages&quot;
+}
+&#39;&#39;&#39;</p>
+<h2 id="other-than-no-server-side-shenanigans-there-are-other-limitations-github-doesn-t-support-http-2-yet-a-cdn-like-cloudflare-https-www-cloudflare-com-can-make-your-content-faster-">Other than no server side shenanigans, there are other limitations. GitHub doesn&#39;t support HTTP/2 yet. A CDN like <a href="https://www.cloudflare.com/">Cloudflare</a> can make your content faster. </h2>
+<p>Recently I was reminded of the importance of having and maintaining a working demo for projects when possible.</p>
 
 			</div>
 			<div class="secFooter">

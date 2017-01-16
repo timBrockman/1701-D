@@ -18,7 +18,7 @@ _**For Hire** - Your Project or Organization_
 
 > - Is your company building a disciplined team of software engineers?
 > - Are you embracing a DevOps philosophy, and looking for developers with operations and support experience?
-> - Do you value best practices and industry standards enough to have maintain internal style guides?
+> - Do you value best practices and industry standards enough to maintain internal style guides?
 >
 >Software development merges creative problem solving with discipled testing and refactoring. 
 >After occupying my free time writing software and browsing GitHub projects for open issues I could resolve, it became clear I should transition to development. 
