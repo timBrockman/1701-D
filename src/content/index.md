@@ -16,28 +16,31 @@ footerText: "Developer Resume (pdf)"
 ###### Web Developer
 _**For Hire** - Your Project or Organization_
 
->lfg
->not a noob
+>Teamwork Disciplined Interested in working in an agile team
+>Transitioning to Developer
+>Contemporary best practices, style guides
+>Web Components
+>Progressive Web Applications
+>Creative problem solving
 >willing to take on noob position to learn
 
 _**The Open Source Community**_
 
+>brief statement of interest
 >Web Components
 >PWA
->Standards
->A11y
->DevOps
+>mention polymer app-layout
 >Microservices
->Trivial at first, but make an impact.
+>mention Kubernetes
 
 ###### IT Manager
 _**Republic First Management & Republic Equity** - (January 2013 - Current) Winter Park, FL_
->Everyone fails from time to time.
->When the status quo becomes failure; it takes perserverance to build relationships, champion positive changes, and audit the effectiveness of those changes.
->The chance of stepping into faltering businesses; renovating the legacy equipment, policies, culture; and being part of a positive turnaround is a rare opportunity.
->My current role, with this group of companies, presents an abundance of such opportunities.
+>It takes perserverance to build relationships, to champion positive changes, and to audit the effectiveness of those changes.
+>My current role provides the chance to assist faltering businesses, renovate the legacy equipment, policies, and culture. 
+>Being part of a positive turnaround is a rare opportunity;
+>this private equity group presented an abundance of such experiences.
 
->Currently, I am studying [FitSM](http://fitsm.itemo.org/fitsm-standard) as a lightweight path to ISO 20000-1 compliance and may write about it at some point.
+>Currently I am studying [FitSM](http://fitsm.itemo.org/fitsm-standard) as a lightweight path to ISO 20000-1 compliance.
 
 _**For Hire** - Your Project or Organization_
 
@@ -51,8 +54,10 @@ _**For Hire** - Your Project or Organization_
 
 ###### Tech & Dev
 
->As an Agile Alliance Member, I'm looking forward to Agile2017 here it my own back yard.
->You can regularly find me attending or presenting at many local developer and tech meetups including:
+>Orlando is home to a close knit community of tech and developer groups.
+>We help each other vorkthrough stay current industry developments.
+>As an Agile Alliance Member, I'm looking forward to Agile2017 in Orlando.
+>You can regularly find me attending many local developer and tech meetups including:
 >  - Orlando Devs
 >  - University Tech
 >  - Agile Orlando
@@ -62,11 +67,9 @@ _**For Hire** - Your Project or Organization_
 
 ###### Visual Arts
 
->Up until 2010 I devoted several hours a week supporting my local art community. 
->It was a great chance to enjoy art and socialize with a lot of great people.
-
->For a couple of years I even served on the Associates Board at the [Maitland Art Center](http://artandhistory.org/maitland-art-center) (now the Art & History Center).
->If your ever in the Orlando area and like Deco art and architecture, this place is worth a visit.
+>Up until 2010 I devoted several hours a week to my local art community. 
+>It was a chance to enjoy fine art with fine people.
+>Durring that time I had the opportunity to serve on the Associates Board at the [Maitland Art Center](http://artandhistory.org/maitland-art-center) (now the Art & History Center).
 
 ---
 
