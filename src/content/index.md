@@ -42,7 +42,7 @@ _**Republic First Management & Republic Equity** - (January 2013 - Current) Wint
 >It takes perseverance to build relationships, to champion positive changes, and to audit the effectiveness of those changes.
 >My current role provides the chance to assist faltering businesses, renovate the legacy equipment, policies, and culture. 
 >Being part of a positive turnaround is a rare opportunity;
->this private equity group presented an abundance of such experiences.
+>this private equity group promised an abundance of such experiences.
 
 >Currently I am studying [FitSM](http://fitsm.itemo.org/fitsm-standard) as a lightweight path to ISO 20000-1 compliance.
 
