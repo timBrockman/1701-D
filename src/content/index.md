@@ -17,8 +17,8 @@ footerText: "Developer Resume (pdf)"
 _**For Hire** - Your Project or Organization_
 
 > - Is your company building a disciplined team of software engineers?
-> - Are you embracing a DevOps philosophy, and looking for developers with operations and support experience?
-> - Do you value best practices and industry standards enough to maintain internal style guides?
+> - Is your team embracing a DevOps philosophy, and looking for developers with operations and support experience?
+> - Does your company value best practices and industry standards enough to maintain internal style guides?
 >
 >Software development merges creative problem solving with discipled testing and refactoring. 
 >After occupying my free time writing software and browsing GitHub projects for open issues I could resolve, it became clear I should transition to development. 
@@ -43,8 +43,6 @@ _**Republic First Management & Republic Equity** - (January 2013 - Current) Wint
 >My current role provides the chance to assist faltering businesses, renovate the legacy equipment, policies, and culture. 
 >Being part of a positive turnaround is a rare opportunity;
 >this private equity group promised an abundance of such experiences.
-
->Currently I am studying [FitSM](http://fitsm.itemo.org/fitsm-standard) as a lightweight path to ISO 20000-1 compliance.
 
 _**For Hire** - Your Project or Organization_
 
