@@ -11,31 +11,20 @@ footerLink: "./dl/dev-res.pdf"
 footerText: "Developer Resume (pdf)"
 ---
 
-### Professional Engagements
+### Current Positions
 
 ###### Web Developer
 _**For Hire** - Your Project or Organization_
 
-> - Is your company building a disciplined team of software engineers?
-> - Is your team embracing a DevOps philosophy, and looking for developers with operations and support experience?
-> - Does your company value best practices and industry standards enough to maintain internal style guides?
->
->Software development merges creative problem solving with discipled testing and refactoring. 
->After occupying my free time writing software and browsing GitHub projects for open issues I could resolve, it became clear I should transition to development. 
->Though I have been developing web applications and sites for a long time, I would happily accept any role to work with the right team.
+> If your company is looking for a disciplined developer with operations and support experience, [**please contact me today**](#).
+> I am actively looking for developer roles, but may not be aware of current openings at your company.
+> I was first introduced to the Internet in 1993, created my first Website in 1994 and have written code in many languages.
+> 
 
 _**The Open Source Community**_
 
->In spite of programming most of my life, contributing to [great projects along side brilliant engineers](https://github.com/PolymerElements/app-layout/graphs/contributors) has been inaccessible and intimidating. 
->In early 2016, after being prompted by a Udacity lesson, it was time to get over my trepidation and do my part to support some great projects.
->I started browsing GitHub issues on several projects looking for concrete solvable problems.
->
->The first one I found was issue [#404 in the Kubernetes documentation](https://github.com/kubernetes/kubernetes.github.io/issues/404), an issue I knew how to solve.
->Shortly afterward, I found a minor issue with the demo pages of [Polymer Elements App Layout](https://github.com/PolymerElements/app-layout). 
->As simple as it was, having this pull request accepted was really exciting.
->While neither of these contributions were massive, I was proud to be a small part of two projects that are changing the web. 
->
->In addition to contributing to other projects, I release most of my work under the [MIT license](http://bro.mit-license.org) on GitHub.
+> Prompted in early 2016 by a Udacity lesson, I began contributing to some of my favorite open source projects on GitHub including Kubernetes and Polymer Elements - App Layout.
+> Additionally, many of my own projects are shared on GitHub under MIT license.
 
 ###### IT Manager
 _**Republic First Management & Republic Equity** - (January 2013 - Current) Winter Park, FL_
