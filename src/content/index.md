@@ -3,10 +3,10 @@ template: default.liquid
 categories: 
   - root
 title: "Professional Profile"
-subtitle: "A brief overview of the direction of my work"
+subtitle: "Web Development and IT Management"
 imagePrefix: "projects"
 imageAlt: "Professional Profile"
-stub: "A brief overview of the direction of my work"
+stub: "Web Development and IT Management"
 footerLink: "./dl/dev-res.pdf"
 footerText: "Developer Resume (pdf)"
 ---
@@ -16,28 +16,29 @@ footerText: "Developer Resume (pdf)"
 ###### Web Developer
 _**For Hire** - Your Project or Organization_
 
-> If your company is looking for a disciplined developer with operations and support experience, [**please contact me today**](#).
-> I am actively looking for developer roles, but may not be aware of current openings at your company.
-> I was first introduced to the Internet in 1993, created my first Website in 1994 and have written code in many languages.
-> 
+> If your company is looking for a disciplined developer with operations and support experience, [**I would like to hear from you**](#).
+> I was first introduced to the Internet in 1993 and created my first Website in 1994.
+> Since that time, I have worked with many frameworks, libraries, CMS's, and stacks. 
+> To date the highest position one of my sites achieved in a Google search was 2 of 340,000,000.
 
 _**The Open Source Community**_
 
-> Prompted in early 2016 by a Udacity lesson, I began contributing to some of my favorite open source projects on GitHub including Kubernetes and Polymer Elements - App Layout.
+> In early 2016, I began devoting some time to my favorite open source projects on GitHub.
+> I've had pull request accepted for some amazing projects including [Kubernetes](https://k8s.io) and [Polymer Elements - App Layout](https://github.com/PolymerElements/app-layout).
 > Additionally, many of my own projects are shared on GitHub under MIT license.
 
 ###### IT Manager
-_**Republic First Management & Republic Equity** - (January 2013 - Current) Winter Park, FL_
-> Over the past 4 years I’ve had the opportunity to help turn things around for faltering businesses. 
-> I stepped into businesses with deferred maintenance and no support, which lead them down a path of crisis driven, piecemeal spending.
-> For 15 offices across 4 states, I’ve implemented a basic triage of service plans and tracked their success.
-> Most importantly, I’ve had the opportunity to build some great professional relationships.
-
 
 _**For Hire** - Your Project or Organization_
 
-> Stop wasting your IT resources on disorganization and inexperience.
-> Together we can develop and execute a clear strategy for IT service management with clearly measurable performance results.
+> Mismanaged IT will damage every part of the business it touches.
+> Together, we can develop and execute a clear strategy for IT service management with clearly measurable performance results.
+
+_**Republic First Management & Republic Equity** - (January 2013 - Current) Winter Park, FL_
+> Over the past 4 years I’ve had the opportunity to help turn things around for faltering businesses. 
+> I stepped into businesses with deferred maintenance and no support, which lead them down a path of crisis-driven piecemeal spending.
+> For 15 offices across 4 states, I’ve implemented a basic triage of service plans and tracked their success.
+> Most importantly, I’ve had the opportunity to build some great professional relationships.
 
 ---
 
@@ -45,7 +46,7 @@ _**For Hire** - Your Project or Organization_
 
 ###### Tech & Dev
 
->Orlando is home to a close knit community of tech and developer groups which helps us stay current industry developments.
+>I'm proud to be part of Orlando's close knit community of tech professionals and developers.
 >You can regularly find me attending many local developer and tech Meetups including:
 >  - Orlando Devs
 >  - University Tech
@@ -57,7 +58,7 @@ _**For Hire** - Your Project or Organization_
 ###### Visual Arts
 
 >Up until 2010 I devoted several hours a week to my local art community. 
->It was a chance to enjoy fine art with fine people.
+>It was a chance to enjoy fine art with great people.
 >During that time I had the opportunity to serve on the Associates Board at the [Maitland Art Center](http://artandhistory.org/maitland-art-center) (now the Art & History Center).
 
 ---
@@ -66,12 +67,13 @@ _**For Hire** - Your Project or Organization_
 ###### University of Central Florida
 
 _**Bachelor of Fine Arts** - Graphic Design_
-  - some other classes etc.
 
-***Other Courses***
+###### U. S. General Services Administration
+
+_**Certification** - Designing Accessible Web Sites_
 
 ###### Udacity
-_**NanoDegree** Front End Web Development 2016_
+_**NanoDegree** - Front End Web Development (Completed August 2016)_
   - ud893- Responsive Web Design Fundamentals
   - ud304- Intro to HTML and CSS
   - ud882- Responsive Images
@@ -112,7 +114,7 @@ _**NanoDegree** Front End Web Development 2016_
 
 ###### Lynda
 
-_**Agile Project Manager** Completed October 2016_
+_**Agile Project Manager** - (Completed October 2016)_
   - Agile Project Management
   - Transitioning from Waterfall to Agile Project Management
   - Agile at Work: Building your Agile Team
