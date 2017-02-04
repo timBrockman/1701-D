@@ -28,16 +28,16 @@ _**The Open Source Community**_
 
 ###### IT Manager
 _**Republic First Management & Republic Equity** - (January 2013 - Current) Winter Park, FL_
->It takes perseverance to build relationships, to champion positive changes, and to audit the effectiveness of those changes.
->My current role provides the chance to assist faltering businesses, renovate the legacy equipment, policies, and culture. 
->Being part of a positive turnaround is a rare opportunity;
->this private equity group promised an abundance of such experiences.
+> Over the past 4 years I’ve had the opportunity to help turn things around for faltering businesses. 
+> I stepped into businesses with deferred maintenance and no support, which lead them down a path of crisis driven, piecemeal spending.
+> For 15 offices across 4 states, I’ve implemented a basic triage of service plans and tracked their success.
+> Most importantly, I’ve had the opportunity to build some great professional relationships.
+
 
 _**For Hire** - Your Project or Organization_
 
->Even with the best solutions, service models, and frameworks; there is something new to be learned from every challenge. 
->Every day the IT playing field changes, often dramatically.
->I would love to help you navigate your business through both the orthodox and unique set of challenges you face.
+> Stop wasting your IT resources on disorganization and inexperience.
+> Together we can develop and execute a clear strategy for IT service management with clearly measurable performance results.
 
 ---
 
